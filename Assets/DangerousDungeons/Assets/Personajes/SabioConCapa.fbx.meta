@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: c2515445306d14f4db491d2bc0a74d78
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-0-L_Foot-5
+    second: {fileID: 2800000, guid: 278f6086f63b94849b0604aeec133b53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-1-L_Calf-5
+    second: {fileID: 2800000, guid: 4e2b718a799ee2544bf771f3b9b32812, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-10-Spine2-7
+    second: {fileID: 2800000, guid: 39108893bb87d354682c3631c504f7c7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-11-Spine1-7
+    second: {fileID: 2800000, guid: 2dc1930256240e044bbf74e016cd7fb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-12-R_Thigh-4
+    second: {fileID: 2800000, guid: 4a6b45b656bf78945b0d337e8acd09a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-13-L_Arm-5
+    second: {fileID: 2800000, guid: 092bcba7dfd26bd448ee1b73daa026a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-14-L_Hand-5
+    second: {fileID: 2800000, guid: b08446af5451e4c48a8e5f5e1b6fd060, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-15-L_ForeArm-5
+    second: {fileID: 2800000, guid: d63db774f55dd8049bafb0520008b885, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-16-Head
+    second: {fileID: 2800000, guid: 75cded83a464ce649b579854b5bca8aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-17-Spine3-8
+    second: {fileID: 2800000, guid: 003e8b5796c67a243b6c49de3fb4549a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-2-L_Thigh-5
+    second: {fileID: 2800000, guid: 749cf631cec646045977d5170ef53647, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-3-R_Foot-4
+    second: {fileID: 2800000, guid: e57ad68635109d840906127db77268fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-4-R_Calf-5
+    second: {fileID: 2800000, guid: f779b8a21510ce449a7f40b0c0081114, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-5-R_Arm-5
+    second: {fileID: 2800000, guid: 759ee4db6cdadd54d9dce2396bcaa126, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-6-R_Hand-5
+    second: {fileID: 2800000, guid: 9725db43dda1807489340d2aad7e5b3a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-7-R_ForeArm-5
+    second: {fileID: 2800000, guid: dc97715da9754fd4483c999309e57a4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-8-Cape_End
+    second: {fileID: 2800000, guid: 2e4cdb54adc52b74681528a67cb54955, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DungeonCrawler_Character_002-9-Cape_Mid
+    second: {fileID: 2800000, guid: 3abab4e14896d814a9e274b65b9cf286, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

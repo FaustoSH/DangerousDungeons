@@ -1,0 +1,258 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1165; Version 2009; 64bit' Language: 'es' Physical Memory: 16271 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56953
+Successfully changed project path to: C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
+C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 39.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   
+    VRAM:     1998 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005068 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.226 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3227ms)
+		BeginReloadAssembly (91ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (527ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (196ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (197ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014731 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.324 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1325ms)
+		BeginReloadAssembly (202ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1035ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (401ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1396 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 65.6 MB.
+System memory in use after: 65.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1831.
+Total: 3.321400 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.113800 ms MarkObjects: 2.899400 ms  DeleteObjects: 0.081500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-12-R_Thigh-8.png
+  artifactKey: Guid(7035f7668c79c934fa9f980cd6595103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-12-R_Thigh-8.png using Guid(7035f7668c79c934fa9f980cd6595103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217f2b5b4765a7e877b009b82646a936') in 0.138446 seconds 
+  Import took 0.141355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-9-L_ForeArm-9.png
+  artifactKey: Guid(7ff1f7b64b86edb4099a75b4c920164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-9-L_ForeArm-9.png using Guid(7ff1f7b64b86edb4099a75b4c920164b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073dee5af4215e2cf341adf753858b46') in 0.012629 seconds 
+  Import took 0.018021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-8-L_Arm-9.png
+  artifactKey: Guid(6f9104db78e8f48428f8f8042a79dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-8-L_Arm-9.png using Guid(6f9104db78e8f48428f8f8042a79dbe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7270dd8a764da9e44a2b0e697ae8f1') in 0.010534 seconds 
+  Import took 0.016625 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-11-R_Calf-9.png
+  artifactKey: Guid(67ddf72543d285742877fdec1ccc9292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-11-R_Calf-9.png using Guid(67ddf72543d285742877fdec1ccc9292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '953e63b6628d1178803ee9b4df9ab1fb') in 0.018031 seconds 
+  Import took 0.022551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-14-R_ForeArm-9.png
+  artifactKey: Guid(95d92590dce8ac4468e60f05f3813518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-14-R_ForeArm-9.png using Guid(95d92590dce8ac4468e60f05f3813518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816f8179e9222e90a4430a4af362ea56') in 0.016996 seconds 
+  Import took 0.020664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-10-R_Foot-8.png
+  artifactKey: Guid(7a8886587f02f1b41889eda8be64a77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-10-R_Foot-8.png using Guid(7a8886587f02f1b41889eda8be64a77d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd76c4372c8c98fa73a3c7ffa9a8f91') in 0.012599 seconds 
+  Import took 0.016261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000695 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-13-R_Arm-9.png
+  artifactKey: Guid(0862e8e03d0d7be42a5201186a151928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-13-R_Arm-9.png using Guid(0862e8e03d0d7be42a5201186a151928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897a82734c2008f34ab3ca43ed6746de') in 0.031105 seconds 
+  Import took 0.036138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000652 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-2-Spine3-7.png
+  artifactKey: Guid(563550a676a758e498262bef5b55a50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-2-Spine3-7.png using Guid(563550a676a758e498262bef5b55a50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79138730532b630e453b4023ff2d9a5') in 0.013524 seconds 
+  Import took 0.019525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-5-L_Calf-9.png
+  artifactKey: Guid(1258aa4de070bed4b8f1fa4b7c86334e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-5-L_Calf-9.png using Guid(1258aa4de070bed4b8f1fa4b7c86334e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a17eaa212a443ce09682f8bfbe7b1d') in 0.015328 seconds 
+  Import took 0.018318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-4-R_Hand-9.png
+  artifactKey: Guid(29711502118c0d349b2bea580f8b4650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-4-R_Hand-9.png using Guid(29711502118c0d349b2bea580f8b4650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f61f3cd54c46efd0f7fcc34c5bdab74') in 0.010740 seconds 
+  Import took 0.016816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-6-L_Foot-9.png
+  artifactKey: Guid(6f81c8647cbe6c940bb94bcb8693aae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-6-L_Foot-9.png using Guid(6f81c8647cbe6c940bb94bcb8693aae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdc96c926299cf547e4bba8225a421c') in 0.013768 seconds 
+  Import took 0.018682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-15-Head-6.png
+  artifactKey: Guid(b8732c34b70fe9742bdb5a1e68a1a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-15-Head-6.png using Guid(b8732c34b70fe9742bdb5a1e68a1a3e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e587cf6b227a64610f6efd06871c7b8') in 0.012767 seconds 
+  Import took 0.015732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-7-L_Thigh-9.png
+  artifactKey: Guid(470a0f65a0815f246961fc0fa2eed378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-7-L_Thigh-9.png using Guid(470a0f65a0815f246961fc0fa2eed378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428bee855b02b07bb050e2054ed5c5c4') in 0.012708 seconds 
+  Import took 0.017150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-1-Spine2-6.png
+  artifactKey: Guid(05f910b90986f9649862378455226d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-1-Spine2-6.png using Guid(05f910b90986f9649862378455226d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584a712602560a379efdeae323f2bf7e') in 0.026797 seconds 
+  Import took 0.029807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-0-Spine1-6.png
+  artifactKey: Guid(4471d10d79dd3d44e97fe79e402fd747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-0-Spine1-6.png using Guid(4471d10d79dd3d44e97fe79e402fd747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9afcc93759403fac82443793b39a6bfd') in 0.012417 seconds 
+  Import took 0.016543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-3-L_Hand-9.png
+  artifactKey: Guid(3174ffad82a653042ad8bb6c03db2480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Materials/DungeonCrawler_Character_002-3-L_Hand-9.png using Guid(3174ffad82a653042ad8bb6c03db2480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423b7276022d997a74c6375dc9664132') in 0.014193 seconds 
+  Import took 0.018408 seconds .
+
