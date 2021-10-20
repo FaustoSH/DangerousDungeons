@@ -1,99 +1,92 @@
 fileFormatVersion: 2
-guid: c2515445306d14f4db491d2bc0a74d78
+guid: d0d32c40d06ac3e4ca39c1f6ac71aaf0
 ModelImporter:
   serializedVersion: 20200
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
   externalObjects:
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-0-L_Foot-5
-    second: {fileID: 2800000, guid: 278f6086f63b94849b0604aeec133b53, type: 3}
+      name: DungeonCrawler_Character_002-0-Spine1-6
+    second: {fileID: 2800000, guid: 7f1bd22d1eaea944895ec42ec09d66e7, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-1-L_Calf-5
-    second: {fileID: 2800000, guid: 4e2b718a799ee2544bf771f3b9b32812, type: 3}
+      name: DungeonCrawler_Character_002-1-Spine2-6
+    second: {fileID: 2800000, guid: 6dc16f6cde813d449ab3127521023b43, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-10-Spine2-7
-    second: {fileID: 2800000, guid: 39108893bb87d354682c3631c504f7c7, type: 3}
+      name: DungeonCrawler_Character_002-10-R_Foot-8
+    second: {fileID: 2800000, guid: e6c4b8d2b4c108e49874a7e37d8d2bf8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-11-Spine1-7
-    second: {fileID: 2800000, guid: 2dc1930256240e044bbf74e016cd7fb7, type: 3}
+      name: DungeonCrawler_Character_002-11-R_Calf-9
+    second: {fileID: 2800000, guid: 2d4b7185ec5650d42982e0a2b99f9b31, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-12-R_Thigh-4
-    second: {fileID: 2800000, guid: 4a6b45b656bf78945b0d337e8acd09a3, type: 3}
+      name: DungeonCrawler_Character_002-12-R_Thigh-8
+    second: {fileID: 2800000, guid: 7eb136d769241e64587311ba6cfc3860, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-13-L_Arm-5
-    second: {fileID: 2800000, guid: 092bcba7dfd26bd448ee1b73daa026a7, type: 3}
+      name: DungeonCrawler_Character_002-13-R_Arm-9
+    second: {fileID: 2800000, guid: 62ecd53ffd1f58e428571ef4a5f69b7b, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-14-L_Hand-5
-    second: {fileID: 2800000, guid: b08446af5451e4c48a8e5f5e1b6fd060, type: 3}
+      name: DungeonCrawler_Character_002-14-R_ForeArm-9
+    second: {fileID: 2800000, guid: 4837e44eacd81ac479a8c42c290d6394, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-15-L_ForeArm-5
-    second: {fileID: 2800000, guid: d63db774f55dd8049bafb0520008b885, type: 3}
+      name: DungeonCrawler_Character_002-15-Head-6
+    second: {fileID: 2800000, guid: f63c24cef68373c40b73b1798ffcc79f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-16-Head
-    second: {fileID: 2800000, guid: 75cded83a464ce649b579854b5bca8aa, type: 3}
+      name: DungeonCrawler_Character_002-2-Spine3-7
+    second: {fileID: 2800000, guid: fe9700740c056db4d87f413d25b1a0cd, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-17-Spine3-8
-    second: {fileID: 2800000, guid: 003e8b5796c67a243b6c49de3fb4549a, type: 3}
+      name: DungeonCrawler_Character_002-3-L_Hand-9
+    second: {fileID: 2800000, guid: e22324a43df9e5b469288ae6ff86a75a, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-2-L_Thigh-5
-    second: {fileID: 2800000, guid: 749cf631cec646045977d5170ef53647, type: 3}
+      name: DungeonCrawler_Character_002-4-R_Hand-9
+    second: {fileID: 2800000, guid: d5c805617e90a374aa55d4bd5e43342d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-3-R_Foot-4
-    second: {fileID: 2800000, guid: e57ad68635109d840906127db77268fc, type: 3}
+      name: DungeonCrawler_Character_002-5-L_Calf-9
+    second: {fileID: 2800000, guid: 26c6f4097a100f94893bfd93a0605c1f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-4-R_Calf-5
-    second: {fileID: 2800000, guid: f779b8a21510ce449a7f40b0c0081114, type: 3}
+      name: DungeonCrawler_Character_002-6-L_Foot-9
+    second: {fileID: 2800000, guid: c3431a2c001c66f45bb00695ad383e57, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-5-R_Arm-5
-    second: {fileID: 2800000, guid: 759ee4db6cdadd54d9dce2396bcaa126, type: 3}
+      name: DungeonCrawler_Character_002-7-L_Thigh-9
+    second: {fileID: 2800000, guid: 6cea8c4927f4ac84daec51b1240f7142, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-6-R_Hand-5
-    second: {fileID: 2800000, guid: 9725db43dda1807489340d2aad7e5b3a, type: 3}
+      name: DungeonCrawler_Character_002-8-L_Arm-9
+    second: {fileID: 2800000, guid: 6e79e88b69febca48b121893b1a607ca, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-7-R_ForeArm-5
-    second: {fileID: 2800000, guid: dc97715da9754fd4483c999309e57a4f, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-8-Cape_End
-    second: {fileID: 2800000, guid: 2e4cdb54adc52b74681528a67cb54955, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: DungeonCrawler_Character_002-9-Cape_Mid
-    second: {fileID: 2800000, guid: 3abab4e14896d814a9e274b65b9cf286, type: 3}
+      name: DungeonCrawler_Character_002-9-L_ForeArm-9
+    second: {fileID: 2800000, guid: 4b618eddc5092bc48a7ea4223f771d0a, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -120,7 +113,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mixamo.com
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 250
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
