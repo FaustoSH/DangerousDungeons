@@ -15,11 +15,11 @@ C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54657
+61629
 Successfully changed project path to: C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
 C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 43.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,985 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004184 seconds.
+Registered in 0.005180 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.085 seconds
+- Completed reload, in  3.655 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3085ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (3656ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (172ms)
+			SetupTypeCache (249ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (19ms)
-				ProcessInitializeOnLoadAttributes (92ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (27ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006509 seconds.
+Registered in 0.006734 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.211 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1212ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (937ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (313ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (364ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.7 MB.
-System memory in use after: 65.8 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1832.
-Total: 3.481200 ms (FindLiveObjects: 0.175600 ms CreateObjectMapping: 0.088900 ms MarkObjects: 3.101500 ms  DeleteObjects: 0.114100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character01.fbx
-  artifactKey: Guid(42fe830be76fb564ea74782518be8c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character01.fbx using Guid(42fe830be76fb564ea74782518be8c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a3267af3fc3ae8dd186367b499033') in 0.252825 seconds 
-  Import took 0.255850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000672 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running.fbx
-  artifactKey: Guid(fe809936692196942978e283e788567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running.fbx using Guid(fe809936692196942978e283e788567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a16e0b4e38a38b3fff6680f32b1205c') in 0.010782 seconds 
-  Import took 0.014024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Idle.fbx
-  artifactKey: Guid(d0d32c40d06ac3e4ca39c1f6ac71aaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Idle.fbx using Guid(d0d32c40d06ac3e4ca39c1f6ac71aaf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9afb5fd407b79086bad27f27efd74b') in 0.133006 seconds 
-  Import took 0.138314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character08.fbx
-  artifactKey: Guid(eaea8298c7a697c45b98dc632355aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character08.fbx using Guid(eaea8298c7a697c45b98dc632355aed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65353e37b1a9ec50a06cdc01dedd3f6d') in 0.097810 seconds 
-  Import took 0.100866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character05.fbx
-  artifactKey: Guid(168370fa221763f489cc752da390f105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character05.fbx using Guid(168370fa221763f489cc752da390f105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf73590771f885fd5ee96deed37ff4f') in 0.107788 seconds 
-  Import took 0.110985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character06.fbx
-  artifactKey: Guid(cfae3ba4779605f41a008171dd477cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character06.fbx using Guid(cfae3ba4779605f41a008171dd477cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c245c89df55c797996091f4c33edb2e') in 0.086772 seconds 
-  Import took 0.089719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000392 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character04.fbx
-  artifactKey: Guid(cf8ce9c4e25dee74998dd5887d891775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character04.fbx using Guid(cf8ce9c4e25dee74998dd5887d891775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ccb1fa081af67e439cd3bada89fbf3f') in 0.089982 seconds 
-  Import took 0.093193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000474 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character10.fbx
-  artifactKey: Guid(fdd134e2aa75b964d9eca823d49c932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character10.fbx using Guid(fdd134e2aa75b964d9eca823d49c932e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666485564e2776e2a5a6036e55a56e3b') in 0.086345 seconds 
-  Import took 0.089316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character02.fbx
-  artifactKey: Guid(461dde6b84029a54e97f18bb241f2f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character02.fbx using Guid(461dde6b84029a54e97f18bb241f2f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf51460e5d8a1cdc1ac6c6a80de5286') in 0.087670 seconds 
-  Import took 0.090672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character03.fbx
-  artifactKey: Guid(fdb24b8a32280ac45b406a7d6b270005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character03.fbx using Guid(fdb24b8a32280ac45b406a7d6b270005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950dd219f6eb98f3b35dd6b1c84d6904') in 0.096651 seconds 
-  Import took 0.099951 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion
-  artifactKey: Guid(abfbd4833e4faa44eacf7aff78aef91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion using Guid(abfbd4833e4faa44eacf7aff78aef91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3445a06ebf9cff6202adbf30e7a97e1') in 0.003929 seconds 
-  Import took 0.019887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character.fbx
-  artifactKey: Guid(fd6481d8591f60049a9c5fa535e8dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character.fbx using Guid(fd6481d8591f60049a9c5fa535e8dd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f69f89975c799fe5aa6e88b95e71f4') in 0.118333 seconds 
-  Import took 0.157683 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character11.fbx
-  artifactKey: Guid(88174f9a4121b3f4b8f7eb15c089ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character11.fbx using Guid(88174f9a4121b3f4b8f7eb15c089ccff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d82df7f92c87e5c87fc00fc1b54686f') in 0.083911 seconds 
-  Import took 0.086882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking.fbx
-  artifactKey: Guid(e352d883b4f167b45a578a3a577a74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking.fbx using Guid(e352d883b4f167b45a578a3a577a74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb95c9833d092182e51dc333e316dd7b') in 0.009307 seconds 
-  Import took 0.012231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000399 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike
-  artifactKey: Guid(cce41d41668454244b3e04ed4b178d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike using Guid(cce41d41668454244b3e04ed4b178d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5887625330b41d6892f667ee911de941') in 0.004568 seconds 
-  Import took 0.008312 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character09.fbx
-  artifactKey: Guid(59b714182c32bed42abd463605294996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character09.fbx using Guid(59b714182c32bed42abd463605294996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c3bc599810f9f8922546a8271dbc51') in 0.086473 seconds 
-  Import took 0.089645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/TPose_Character07.fbx
-  artifactKey: Guid(e2339076b017a884db5c9af54853cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/TPose_Character07.fbx using Guid(e2339076b017a884db5c9af54853cd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e32b3f55c5bff0784718b89fe85818') in 0.085347 seconds 
-  Import took 0.088540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.404995 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva
-  artifactKey: Guid(baf3b13dbb0de7648ab5889bda8cfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva using Guid(baf3b13dbb0de7648ab5889bda8cfe98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96592d03b7638294fb72e359e40efb76') in 0.004223 seconds 
-  Import took 0.008491 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.291353 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/idle.fbx
-  artifactKey: Guid(e51dc8b73f60b2f4e9fa06401b738917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/idle.fbx using Guid(e51dc8b73f60b2f4e9fa06401b738917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02a650738d3dcce1618ca924d6ec22') in 0.015366 seconds 
-  Import took 0.022317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right turn.fbx
-  artifactKey: Guid(33fbd6b1a87846f41b825b59b3f4c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right turn.fbx using Guid(33fbd6b1a87846f41b825b59b3f4c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9e3052fb2a8e7c6cf85c6c6186d1c2') in 0.014105 seconds 
-  Import took 0.018330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right strafe walking.fbx
-  artifactKey: Guid(d31c909c0fe7eb14ebb23bf1472926af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right strafe walking.fbx using Guid(d31c909c0fe7eb14ebb23bf1472926af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d211d35928a8a8f8740f12b2fe5246') in 0.011256 seconds 
-  Import took 0.014875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right turn 90.fbx
-  artifactKey: Guid(44db4fe08dc819645b74fda84b8c4856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right turn 90.fbx using Guid(44db4fe08dc819645b74fda84b8c4856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e4bfba4fcff61e1a3f104e37f665c6') in 0.011848 seconds 
-  Import took 0.015219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left strafe walking.fbx
-  artifactKey: Guid(00dfdafa301c7014382c61b9ced6ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left strafe walking.fbx using Guid(00dfdafa301c7014382c61b9ced6ac93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5aceb2c312837cfc7eef0e6f439b12') in 0.009864 seconds 
-  Import took 0.013014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left turn.fbx
-  artifactKey: Guid(aa3f1dfdebfab1846b3e85b16d4b0f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left turn.fbx using Guid(aa3f1dfdebfab1846b3e85b16d4b0f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a97ddbf4df23ea0e082f1ac685a7df') in 0.010265 seconds 
-  Import took 0.014017 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left turn 90.fbx
-  artifactKey: Guid(40b34abc1ea584e4bbfcf79eaac2ee30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left turn 90.fbx using Guid(40b34abc1ea584e4bbfcf79eaac2ee30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eca992014f07397ef6dd3d06fb01e64') in 0.010726 seconds 
-  Import took 0.016654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/walking.fbx
-  artifactKey: Guid(d404fadfe761c5245a7c656cb16f2b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/walking.fbx using Guid(d404fadfe761c5245a7c656cb16f2b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2854d80c21e8a8b3ff7d2fb406584df') in 0.009686 seconds 
-  Import took 0.017590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/running.fbx
-  artifactKey: Guid(57e71e08dfe06a0468d185c66ad3a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/running.fbx using Guid(57e71e08dfe06a0468d185c66ad3a5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd514a023a0ea07f6c905424c2f60be4e') in 0.013016 seconds 
-  Import took 0.016327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right strafe.fbx
-  artifactKey: Guid(f2bb6ebbae59f5947aa67fc1170c82b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/right strafe.fbx using Guid(f2bb6ebbae59f5947aa67fc1170c82b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '690c0f56c6f8d1ba5b473f468004727e') in 0.014257 seconds 
-  Import took 0.017493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left strafe.fbx
-  artifactKey: Guid(7db379961b837cd4484b5aab56463155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left strafe.fbx using Guid(7db379961b837cd4484b5aab56463155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1b6fab828bc6b58f6c890ebc8888e7') in 0.012802 seconds 
-  Import took 0.016393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/idle.fbx
-  artifactKey: Guid(e51dc8b73f60b2f4e9fa06401b738917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/idle.fbx using Guid(e51dc8b73f60b2f4e9fa06401b738917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b02a650738d3dcce1618ca924d6ec22') in 0.013895 seconds 
-  Import took 0.017660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000086 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left strafe.fbx
-  artifactKey: Guid(7db379961b837cd4484b5aab56463155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/left strafe.fbx using Guid(7db379961b837cd4484b5aab56463155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1b6fab828bc6b58f6c890ebc8888e7') in 0.021180 seconds 
-  Import took 0.029657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/jump.fbx
-  artifactKey: Guid(167cbc4ee150986419f13f6dc7b68a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Nueva/jump.fbx using Guid(167cbc4ee150986419f13f6dc7b68a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0703d7a9ee59c9feef60bb3a5c51790') in 0.011661 seconds 
-  Import took 0.015717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 960.278193 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_left_turn.fbx
-  artifactKey: Guid(fea561db3a2b2734f9823dd4a84846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_left_turn.fbx using Guid(fea561db3a2b2734f9823dd4a84846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f754867555881473a967fa59320240') in 0.012529 seconds 
-  Import took 0.020314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001035 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_right_Turn.fbx
-  artifactKey: Guid(e6da6e6456365ca4d8d8c4bba12dd790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_right_Turn.fbx using Guid(e6da6e6456365ca4d8d8c4bba12dd790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b277f422988acb0665d29438526a1469') in 0.008616 seconds 
-  Import took 0.013651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_right_turn.fbx
-  artifactKey: Guid(c306075d4b1ea1948afda8987dd6dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_right_turn.fbx using Guid(c306075d4b1ea1948afda8987dd6dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0dcc0bdbb94b15597b4528b8a44a67') in 0.013159 seconds 
-  Import took 0.018052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_left_turn.fbx
-  artifactKey: Guid(fea561db3a2b2734f9823dd4a84846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_left_turn.fbx using Guid(fea561db3a2b2734f9823dd4a84846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f754867555881473a967fa59320240') in 0.010490 seconds 
-  Import took 0.014131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_Left_Turn.fbx
-  artifactKey: Guid(27a900b6a272b5545ad97b25aa2c01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_Left_Turn.fbx using Guid(27a900b6a272b5545ad97b25aa2c01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d04a140b48114201419e35bccaf3fe') in 0.009679 seconds 
-  Import took 0.013696 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.994816 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/right turn 180.fbx
-  artifactKey: Guid(33fbd6b1a87846f41b825b59b3f4c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/right turn 180.fbx using Guid(33fbd6b1a87846f41b825b59b3f4c75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9b1d0e7c32b35d6eee08142ab3458e') in 0.010270 seconds 
-  Import took 0.014279 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.046832 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab331b34bc1b5eed6a544c98c947185') in 0.009574 seconds 
-  Import took 0.013529 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 103.514343 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Run To Stop.fbx
-  artifactKey: Guid(01198b0cdbb5d01458a955b77801f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Run To Stop.fbx using Guid(01198b0cdbb5d01458a955b77801f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf9666cc431b934e9e4e16c257a128b') in 0.016747 seconds 
-  Import took 0.020901 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000350 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf73629e0938a1eff0146d94710fc705') in 0.010172 seconds 
-  Import took 0.013970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.701460 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/MikeAnimator.controller
-  artifactKey: Guid(b12bc8872e971e84baba6c15f7ca4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/MikeAnimator.controller using Guid(b12bc8872e971e84baba6c15f7ca4a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c85e894c0faa20e6bafd1564d9cfa0') in 0.012188 seconds 
-  Import took 0.015570 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 370.054530 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dee9740b582daed1c1c1e0ec9f3b29ce') in 0.009455 seconds 
-  Import took 0.013157 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006187 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.585 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1586ms)
-		BeginReloadAssembly (180ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1311ms)
-			LoadAssemblies (158ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (572ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (410ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (107ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1878.
-Total: 4.569400 ms (FindLiveObjects: 0.221900 ms CreateObjectMapping: 0.107700 ms MarkObjects: 4.210500 ms  DeleteObjects: 0.027600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 81.025807 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab46b70561a15546d56d86995cd90a4e') in 0.035105 seconds 
-  Import took 0.039684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.341509 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d8f1f6010fb42d34735376217b84ce') in 0.008556 seconds 
-  Import took 0.012350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.176967 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd916a3c9722936f27999c23338b39673') in 0.010122 seconds 
-  Import took 0.013835 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005671 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.271 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1272ms)
-		BeginReloadAssembly (166ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1021ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (408ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (345ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (96ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 83.9 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1880.
-Total: 3.702200 ms (FindLiveObjects: 0.181200 ms CreateObjectMapping: 0.122700 ms MarkObjects: 3.367700 ms  DeleteObjects: 0.029600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 40.911815 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1f25cbbaa5cf6fab72c38e9d9227113') in 0.030765 seconds 
-  Import took 0.034722 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007185 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.362 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1362ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1137ms)
-			LoadAssemblies (132ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (430ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.8 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1882.
-Total: 4.952200 ms (FindLiveObjects: 0.874600 ms CreateObjectMapping: 0.147900 ms MarkObjects: 3.904300 ms  DeleteObjects: 0.023300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 15.539960 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3741fa340b47a0284d135256e5f3c93') in 0.035051 seconds 
-  Import took 0.038691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.845265 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c138bd3d8386cdeaf33580366b95284f') in 0.011177 seconds 
-  Import took 0.015552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000633 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c138bd3d8386cdeaf33580366b95284f') in 0.009171 seconds 
-  Import took 0.013526 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.554244 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970b000146f257aeecc84a6b10beacf2') in 0.009801 seconds 
-  Import took 0.013448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.690398 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3497b4b0a4381fda2e16dd564319ef63') in 0.009872 seconds 
-  Import took 0.013299 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005936 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.261 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1262ms)
-		BeginReloadAssembly (157ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1027ms)
-			LoadAssemblies (117ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (394ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (370ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1884.
-Total: 3.749700 ms (FindLiveObjects: 0.231500 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.388900 ms  DeleteObjects: 0.030900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 23.620264 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029715 seconds  code(4) message(Build asset version error: assets/dangerousdungeons/assets/personajes/mike/animacion/left turn 90.fbx.meta in SourceAssetDB has modification time of '2021-10-26T12:13:01.1029379Z' while content on disk has modification time of '2021-10-26T12:13:03.2435242Z')
-  ERROR: Build asset version error: assets/dangerousdungeons/assets/personajes/mike/animacion/left turn 90.fbx.meta in SourceAssetDB has modification time of '2021-10-26T12:13:01.1029379Z' while content on disk has modification time of '2021-10-26T12:13:03.2435242Z'
-  Import took 0.032366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080694 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667af5784b2915132fd622cfd1805c55') in 0.011106 seconds 
-  Import took 0.015368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000784 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx
-  artifactKey: Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/left turn 90.fbx using Guid(649100e0f23d2ab4b9d77cf481af7c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667af5784b2915132fd622cfd1805c55') in 0.009033 seconds 
-  Import took 0.013463 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005732 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.177 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1177ms)
-		BeginReloadAssembly (149ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (949ms)
-			LoadAssemblies (122ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (323ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (211ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1886.
-Total: 3.331700 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.090800 ms MarkObjects: 3.026600 ms  DeleteObjects: 0.031000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 89.876410 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking.fbx
-  artifactKey: Guid(e352d883b4f167b45a578a3a577a74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking.fbx using Guid(e352d883b4f167b45a578a3a577a74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a434b920a2975e6ef30f40167831d3') in 0.037893 seconds 
-  Import took 0.044763 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.642429 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running.fbx
-  artifactKey: Guid(fe809936692196942978e283e788567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running.fbx using Guid(fe809936692196942978e283e788567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ad02866d5a3e7daaa173f3e48cb519') in 0.009410 seconds 
-  Import took 0.013791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010371 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running.fbx
-  artifactKey: Guid(fe809936692196942978e283e788567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running.fbx using Guid(fe809936692196942978e283e788567f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ad02866d5a3e7daaa173f3e48cb519') in 0.010344 seconds 
-  Import took 0.014745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.839310 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_left_turn.fbx
-  artifactKey: Guid(fea561db3a2b2734f9823dd4a84846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_left_turn.fbx using Guid(fea561db3a2b2734f9823dd4a84846d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab4806b1a2660c8c14784afbf0b619c') in 0.008357 seconds 
-  Import took 0.012990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.570473 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_right_turn.fbx
-  artifactKey: Guid(c306075d4b1ea1948afda8987dd6dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running_right_turn.fbx using Guid(c306075d4b1ea1948afda8987dd6dee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6509c4dc201f4cf99cf50d2e3ff5c887') in 0.007810 seconds 
-  Import took 0.011532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.870192 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_Left_Turn.fbx
-  artifactKey: Guid(27a900b6a272b5545ad97b25aa2c01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_Left_Turn.fbx using Guid(27a900b6a272b5545ad97b25aa2c01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60934876488cd84fd6d193359d2eb78c') in 0.009849 seconds 
-  Import took 0.013882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000513 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_Left_Turn.fbx
-  artifactKey: Guid(27a900b6a272b5545ad97b25aa2c01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_Left_Turn.fbx using Guid(27a900b6a272b5545ad97b25aa2c01aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60934876488cd84fd6d193359d2eb78c') in 0.009464 seconds 
-  Import took 0.014022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.668094 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_right_Turn.fbx
-  artifactKey: Guid(e6da6e6456365ca4d8d8c4bba12dd790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking_right_Turn.fbx using Guid(e6da6e6456365ca4d8d8c4bba12dd790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8b9cdf61fc94c14e996838e9efddc2') in 0.009098 seconds 
-  Import took 0.013583 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006127 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  1.702 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1703ms)
-		BeginReloadAssembly (177ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (1424ms)
-			LoadAssemblies (168ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1336ms)
+			LoadAssemblies (163ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (424ms)
+			SetupTypeCache (451ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (453ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (522ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (296ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (339ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1888.
-Total: 4.359800 ms (FindLiveObjects: 0.543900 ms CreateObjectMapping: 0.384100 ms MarkObjects: 3.406300 ms  DeleteObjects: 0.021700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005763 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1221ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (998ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (396ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (341ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (97ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				AfterProcessingInitializeOnLoad (38ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
+Unloading 1397 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.8 MB.
+System memory in use after: 66.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1890.
-Total: 3.509800 ms (FindLiveObjects: 0.186700 ms CreateObjectMapping: 0.095100 ms MarkObjects: 3.198100 ms  DeleteObjects: 0.028800 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1832.
+Total: 4.257300 ms (FindLiveObjects: 0.265000 ms CreateObjectMapping: 0.269400 ms MarkObjects: 3.636800 ms  DeleteObjects: 0.084400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1027,497 +131,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 450.689306 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cafbc3c02238384a6bc44a8cd45a8fd') in 0.032274 seconds 
-  Import took 0.035664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.706244 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cafbc3c02238384a6bc44a8cd45a8fd') in 0.008294 seconds 
-  Import took 0.011744 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005801 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1256ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1028ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (395ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (354ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1892.
-Total: 3.433900 ms (FindLiveObjects: 0.222000 ms CreateObjectMapping: 0.091000 ms MarkObjects: 3.088000 ms  DeleteObjects: 0.031700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.329214 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2befbd83c918b0deaaaca1e56f02695') in 0.028305 seconds 
-  Import took 0.031338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.711869 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5fa4f5dca2e384fd476a955b8bc0ac') in 0.009208 seconds 
-  Import took 0.013494 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009200 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5fa4f5dca2e384fd476a955b8bc0ac') in 0.011995 seconds 
-  Import took 0.015591 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006415 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.212 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1212ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (988ms)
-			LoadAssemblies (123ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (391ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (332ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (88ms)
-				ProcessInitializeOnLoadAttributes (218ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1894.
-Total: 3.625800 ms (FindLiveObjects: 0.197800 ms CreateObjectMapping: 0.098500 ms MarkObjects: 3.307200 ms  DeleteObjects: 0.020900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.557769 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19f579748a293a1120b5eb34be2c852') in 0.030844 seconds 
-  Import took 0.034006 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.580207 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx
-  artifactKey: Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Stop Walking.fbx using Guid(2642d9c58bf0b80449b7d9674b30dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19f579748a293a1120b5eb34be2c852') in 0.008474 seconds 
-  Import took 0.012081 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005215 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1288ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1047ms)
-			LoadAssemblies (128ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (380ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (395ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 83.9 MB.
-System memory in use after: 84.0 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1896.
-Total: 3.421000 ms (FindLiveObjects: 0.187900 ms CreateObjectMapping: 0.094100 ms MarkObjects: 3.116800 ms  DeleteObjects: 0.020800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 513.702548 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Run To Stop.fbx
-  artifactKey: Guid(01198b0cdbb5d01458a955b77801f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Run To Stop.fbx using Guid(01198b0cdbb5d01458a955b77801f0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dc624c49c8ef03550305aa81403999') in 0.041494 seconds 
-  Import took 0.051865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000317 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Left Turn.fbx
-  artifactKey: Guid(57a1d25ab714cb94bafa8a934c669255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Left Turn.fbx using Guid(57a1d25ab714cb94bafa8a934c669255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c7590b5461d0d4c74d6bd71c3be009') in 0.009872 seconds 
-  Import took 0.013319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Right Turn.fbx
-  artifactKey: Guid(f329e30e666d0d84fbe6dd4fab47ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Right Turn.fbx using Guid(f329e30e666d0d84fbe6dd4fab47ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb87a8d4bf669b2d16caeb21cf2c9c4') in 0.010592 seconds 
-  Import took 0.014121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
   path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Left Turn.fbx
   artifactKey: Guid(e3cc40fe2cbc06f4f88af20b239cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Left Turn.fbx using Guid(e3cc40fe2cbc06f4f88af20b239cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ed88e7383774436b44ffd03b0d399a') in 0.008052 seconds 
-  Import took 0.011207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Right Turn.fbx
-  artifactKey: Guid(25a4024f3208eb24fb9226c08d0d62e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Right Turn.fbx using Guid(25a4024f3208eb24fb9226c08d0d62e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8c8672d75ff6ddc45c9140990577b9a') in 0.008994 seconds 
-  Import took 0.012016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.471055 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Right Turn.fbx
-  artifactKey: Guid(f329e30e666d0d84fbe6dd4fab47ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Right Turn.fbx using Guid(f329e30e666d0d84fbe6dd4fab47ae30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c422d6e2aeb694348a354043ff4836') in 0.009100 seconds 
-  Import took 0.012854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.756861 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Right Turn.fbx
-  artifactKey: Guid(25a4024f3208eb24fb9226c08d0d62e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Right Turn.fbx using Guid(25a4024f3208eb24fb9226c08d0d62e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73143b0c63f84b06e5d8f8a3233e753e') in 0.008193 seconds 
-  Import took 0.012056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.164792 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Left Turn.fbx
-  artifactKey: Guid(57a1d25ab714cb94bafa8a934c669255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Left Turn.fbx using Guid(57a1d25ab714cb94bafa8a934c669255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a752b40f20f10c0b4be9a6b26ce2279') in 0.010600 seconds 
-  Import took 0.014591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000568 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Left Turn.fbx
-  artifactKey: Guid(57a1d25ab714cb94bafa8a934c669255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Running Left Turn.fbx using Guid(57a1d25ab714cb94bafa8a934c669255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a752b40f20f10c0b4be9a6b26ce2279') in 0.010093 seconds 
-  Import took 0.013657 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.243870 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Left Turn.fbx
-  artifactKey: Guid(e3cc40fe2cbc06f4f88af20b239cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Left Turn.fbx using Guid(e3cc40fe2cbc06f4f88af20b239cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a8594fa5d952ba54b5c8fa1761a803') in 0.009156 seconds 
-  Import took 0.012916 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.704853 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/run to stop 1.fbx
-  artifactKey: Guid(e54d859f657978740b34d85134f7cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/run to stop 1.fbx using Guid(e54d859f657978740b34d85134f7cd5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995d62d832c0b30c5a8bc5dae8e7bb01') in 0.009348 seconds 
-  Import took 0.013235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 687.336328 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Scripts/MikeController.cs
-  artifactKey: Guid(ad0c103c91bc5ca49955930c4f417645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Scripts/MikeController.cs using Guid(ad0c103c91bc5ca49955930c4f417645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b659e3d5dbba6989d550bd5a76c8f3') in 0.019545 seconds 
-  Import took 0.023125 seconds .
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Animacion/Walking Left Turn.fbx using Guid(e3cc40fe2cbc06f4f88af20b239cb346) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0303670af3f97ed4f8585abdcfe0893') in 0.073287 seconds 
+  Import took 0.077203 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005273 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.322 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1323ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (121ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (494ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (338ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (221ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1898.
-Total: 3.818500 ms (FindLiveObjects: 0.188000 ms CreateObjectMapping: 0.090500 ms MarkObjects: 3.508300 ms  DeleteObjects: 0.030000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 63.056740 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Scripts/MikeController.cs
-  artifactKey: Guid(ad0c103c91bc5ca49955930c4f417645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Scripts/MikeController.cs using Guid(ad0c103c91bc5ca49955930c4f417645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d2da3a41353f0dd0662df50e39ed0') in 0.006076 seconds 
-  Import took 0.008836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.882938 seconds.
-  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Scripts/MikeController.cs
-  artifactKey: Guid(ad0c103c91bc5ca49955930c4f417645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Scripts/MikeController.cs using Guid(ad0c103c91bc5ca49955930c4f417645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71a599f40f2e555551b80335a1f72b3') in 0.006999 seconds 
-  Import took 0.010249 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007235 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.237 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (174ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (933ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (324ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (350ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1900.
-Total: 3.591400 ms (FindLiveObjects: 0.177700 ms CreateObjectMapping: 0.095100 ms MarkObjects: 3.291100 ms  DeleteObjects: 0.026500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005071 seconds.
+Registered in 0.005147 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.207 seconds
+- Completed reload, in  1.196 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1208ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (148ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (37ms)
-		EndReloadAssembly (983ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (958ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (384ms)
+			SetupTypeCache (329ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (369ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (222ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.0 MB.
-System memory in use after: 84.1 MB.
+System memory in use before: 66.6 MB.
+System memory in use after: 66.7 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1902.
-Total: 3.572400 ms (FindLiveObjects: 0.178700 ms CreateObjectMapping: 0.090800 ms MarkObjects: 3.270600 ms  DeleteObjects: 0.031200 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1834.
+Total: 3.395900 ms (FindLiveObjects: 0.172600 ms CreateObjectMapping: 0.089100 ms MarkObjects: 3.103100 ms  DeleteObjects: 0.030100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
