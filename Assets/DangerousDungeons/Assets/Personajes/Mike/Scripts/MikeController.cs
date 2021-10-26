@@ -23,6 +23,16 @@ public class MikeController : MonoBehaviour
             else
             {
                 animator.SetInteger("Velocidad", 1);
+                if (Input.GetKey(KeyCode.D))
+                {
+                    animator.SetInteger("Direccion", 2);
+                }else if(Input.GetKey(KeyCode.A))
+                {
+                    animator.SetInteger("Direccion", 1);
+                }else
+                {
+                    animator.SetInteger("Direccion", 0);
+                }
             }
         }
         else 
