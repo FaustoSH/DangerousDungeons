@@ -15,11 +15,11 @@ C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59785
+49423
 Successfully changed project path to: C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
 C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.21 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 40.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004113 seconds.
+Registered in 0.004405 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.95 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 36.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.641 seconds
+- Completed reload, in  3.153 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3641ms)
-		BeginReloadAssembly (202ms)
+	ReloadAssembly (3153ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (524ms)
-			LoadAssemblies (192ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (504ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (189ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (207ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (181ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (88ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008996 seconds.
+Registered in 0.006695 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.905 seconds
+- Completed reload, in  1.212 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4906ms)
-		BeginReloadAssembly (485ms)
+	ReloadAssembly (1213ms)
+		BeginReloadAssembly (193ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (4224ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (125ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (3367ms)
+			SetupTypeCache (307ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (370ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (43ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (149ms)
-				ProcessInitializeOnLoadAttributes (3125ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (38ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (28ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 71.5 MB.
+System memory in use before: 71.4 MB.
 System memory in use after: 71.5 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1837.
-Total: 4.463800 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.058500 ms MarkObjects: 4.101600 ms  DeleteObjects: 0.078900 ms)
+Total: 3.861100 ms (FindLiveObjects: 0.141000 ms CreateObjectMapping: 0.052100 ms MarkObjects: 3.534400 ms  DeleteObjects: 0.132300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,9 +131,617 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/DangerousDungeons/GeneralScripts/CameraController.cs
-  artifactKey: Guid(60cbf09ccffa8b74e991b12e738f00d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DangerousDungeons/GeneralScripts/CameraController.cs using Guid(60cbf09ccffa8b74e991b12e738f00d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208e37c0b46b2149ffa9f26bad2b445b') in 0.034751 seconds 
-  Import took 0.037976 seconds .
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Sword2.obj
+  artifactKey: Guid(980046a50fb33e043aed21f5560a3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Sword2.obj using Guid(980046a50fb33e043aed21f5560a3f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a9174ff1daf111ee2f66ba34469def') in 0.195143 seconds 
+  Import took 0.198686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons
+  artifactKey: Guid(bfd4da85f44be5a419ebfd37a0feb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons using Guid(bfd4da85f44be5a419ebfd37a0feb982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6580a1ad9ec183af28271fd6f808ac5') in 0.003776 seconds 
+  Import took 0.007370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Shield.obj
+  artifactKey: Guid(92015b632e148bd4394e2cb5ec690886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Shield.obj using Guid(92015b632e148bd4394e2cb5ec690886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4bb771899e64be3911140a7cba500b') in 0.036146 seconds 
+  Import took 0.039843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/MagicBook.obj
+  artifactKey: Guid(d7b8552c2d3b3944bb210ee64a12d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/MagicBook.obj using Guid(d7b8552c2d3b3944bb210ee64a12d86d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f711e58d1dd94ecc1528fa9207801921') in 0.032321 seconds 
+  Import took 0.035527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Knife1.obj
+  artifactKey: Guid(6b849b700dceaa747897335d1fcdee25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Knife1.obj using Guid(6b849b700dceaa747897335d1fcdee25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9639e812468f10052e42be8bae2c1a') in 0.029235 seconds 
+  Import took 0.032486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Pistol.obj
+  artifactKey: Guid(53d4619a4f802e648bf121136b7e3c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Pistol.obj using Guid(53d4619a4f802e648bf121136b7e3c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1373f7f0b743c1e3df03f9939670ed83') in 0.029849 seconds 
+  Import took 0.033785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Quiver.obj
+  artifactKey: Guid(8efffc2024eaa47449b4d6f502a13d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Quiver.obj using Guid(8efffc2024eaa47449b4d6f502a13d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653b6a9f4d201b3bfef79c921c6cefa2') in 0.030277 seconds 
+  Import took 0.033655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/SmallMagicStaff.obj
+  artifactKey: Guid(1fa635eb1ae1c7d4c99db12b38360fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/SmallMagicStaff.obj using Guid(1fa635eb1ae1c7d4c99db12b38360fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '508ed3c1aa69604fa92d6467847e32d4') in 0.032228 seconds 
+  Import took 0.035263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Staff.obj
+  artifactKey: Guid(1a742e418b9ceb74f89ac20c1c7466b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Staff.obj using Guid(1a742e418b9ceb74f89ac20c1c7466b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1375110432db6684a9f4e5854f35fb52') in 0.030237 seconds 
+  Import took 0.033552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ
+  artifactKey: Guid(fe575a986cb4d34488b4c5d68c12dd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ using Guid(fe575a986cb4d34488b4c5d68c12dd15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264ac68c5d14fbb9f6e7b4d9a2e600ad') in 0.003619 seconds 
+  Import took 0.006900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Sword1.obj
+  artifactKey: Guid(499fb3998b48e77468ad004ab7b33a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Sword1.obj using Guid(499fb3998b48e77468ad004ab7b33a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b656b14fd0cf2bfddb52e7fea8b9694') in 0.036911 seconds 
+  Import took 0.039972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/SmallHammer.obj
+  artifactKey: Guid(9c1908af7e78d3c43bcdf948d3937905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/SmallHammer.obj using Guid(9c1908af7e78d3c43bcdf948d3937905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e27d509d9bf5371fb921cee5f120b5') in 0.030123 seconds 
+  Import took 0.033147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Knife2.obj
+  artifactKey: Guid(b9f3449880f8a654faaa5aa82ae545c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/OBJ/Knife2.obj using Guid(b9f3449880f8a654faaa5aa82ae545c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2ac053719a3a961ae9468ea8b074bd') in 0.029414 seconds 
+  Import took 0.032622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.084692 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/MetalicMap.png
+  artifactKey: Guid(af30f25a45b1a7d47ae96ee2503e0a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/MetalicMap.png using Guid(af30f25a45b1a7d47ae96ee2503e0a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9288c27ba48e13588f2c0b998e10be32') in 0.100163 seconds 
+  Import took 0.104007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.481533 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/AxeMaterial.mat
+  artifactKey: Guid(487517ecfe0fd6648aca6312cbf9ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/AxeMaterial.mat using Guid(487517ecfe0fd6648aca6312cbf9ae19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95498f460ad8fee6522047fa51b5bede') in 0.041888 seconds 
+  Import took 0.046763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.348675 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Textures
+  artifactKey: Guid(39cb4c5c9a92c374f8d7dd2656aa297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Textures using Guid(39cb4c5c9a92c374f8d7dd2656aa297a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42cb729203095c84f8e06964e83e332') in 0.003396 seconds 
+  Import took 0.006530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.712098 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Materials
+  artifactKey: Guid(2bc2893baff3de74fb132fe66724ff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Materials using Guid(2bc2893baff3de74fb132fe66724ff73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6582f2b1fdfb63289514f8e2d165d7cb') in 0.004152 seconds 
+  Import took 0.007245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.758947 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Textures/MetalicMap.png
+  artifactKey: Guid(c2ef02c721ce7dd42a46a5654b7f602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Textures/MetalicMap.png using Guid(c2ef02c721ce7dd42a46a5654b7f602b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10bf8fb5f8a575c411e9c1eaeed10e77') in 0.040109 seconds 
+  Import took 0.043398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.924523 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Textures/AllColors.png
+  artifactKey: Guid(a51c7be16bcc72747a1d121904d878d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Textures/AllColors.png using Guid(a51c7be16bcc72747a1d121904d878d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0234b7589034fdf5dd28e3fe89685528') in 0.053501 seconds 
+  Import took 0.080250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.701632 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Arrow.fbx
+  artifactKey: Guid(227cd603ec3630e4ab02a046b4b40ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Arrow.fbx using Guid(227cd603ec3630e4ab02a046b4b40ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '492a622f5c39c522d356aa81e849eee6') in 0.029309 seconds 
+  Import took 0.032533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Bow2.fbx
+  artifactKey: Guid(f38a288fb1693e44d9d20684a644fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Bow2.fbx using Guid(f38a288fb1693e44d9d20684a644fa31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ced7c526452fab4b17b5e30caea5e3') in 0.028109 seconds 
+  Import took 0.031109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Bomb.fbx
+  artifactKey: Guid(bf066cf3799cd1141bb56fd72f7dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Bomb.fbx using Guid(bf066cf3799cd1141bb56fd72f7dbf48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc7651135b05c7c94cd12af71140ae0') in 0.048137 seconds 
+  Import took 0.050977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/BigMagicStaff.fbx
+  artifactKey: Guid(39679d2306a1f584694287e65092f9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/BigMagicStaff.fbx using Guid(39679d2306a1f584694287e65092f9e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398e9810f9c7426da8cdbec47239fda2') in 0.044609 seconds 
+  Import took 0.047585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Staff.fbx
+  artifactKey: Guid(b20ccdb88d0c3a44792f5e576250fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Staff.fbx using Guid(b20ccdb88d0c3a44792f5e576250fb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c64b9953db7102bbdfc47c6b789bdc') in 0.044318 seconds 
+  Import took 0.047711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Sword2.fbx
+  artifactKey: Guid(be686367ecdbe634484467fd5792e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Sword2.fbx using Guid(be686367ecdbe634484467fd5792e070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8555a887964ea9ce6c6678414c35d712') in 0.046060 seconds 
+  Import took 0.049124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Knife2.fbx
+  artifactKey: Guid(76855179e695e314a8e52628b0b29087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Knife2.fbx using Guid(76855179e695e314a8e52628b0b29087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ddceb1c8cdad4e7f35dfc224a3d815') in 0.044907 seconds 
+  Import took 0.047814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Sword1.fbx
+  artifactKey: Guid(1911f4e53e57beb429372b3d75fd923a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Sword1.fbx using Guid(1911f4e53e57beb429372b3d75fd923a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c67bb0bc3d4313c4df521a5dd862eda') in 0.042670 seconds 
+  Import took 0.046774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Axe.fbx
+  artifactKey: Guid(937b30ec5e287604db2e187786742d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Axe.fbx using Guid(937b30ec5e287604db2e187786742d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4a5e8a6dbce6bbd47c46e6dd54beb') in 0.046227 seconds 
+  Import took 0.048894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Crossbow2.fbx
+  artifactKey: Guid(887e71ebe96864640a0004d58bf833c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Crossbow2.fbx using Guid(887e71ebe96864640a0004d58bf833c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a8ca5ed9c7ea774e1624f85350fdf9') in 0.042615 seconds 
+  Import took 0.045687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Pistol.fbx
+  artifactKey: Guid(05688ad5da61f8343a57c3d978533d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Pistol.fbx using Guid(05688ad5da61f8343a57c3d978533d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f04b130d3cb9f4b27294a1cf14e14c') in 0.023166 seconds 
+  Import took 0.026112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/BigAxe.fbx
+  artifactKey: Guid(844b400f22941d348ac83f9402d4c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/BigAxe.fbx using Guid(844b400f22941d348ac83f9402d4c8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98c595b1dccf8c74e83f55dad4d3bd9') in 0.034091 seconds 
+  Import took 0.037450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Knife1.fbx
+  artifactKey: Guid(a5be730ec1835524da8911f9fa5308e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Knife1.fbx using Guid(a5be730ec1835524da8911f9fa5308e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4922974424f2a165b674c6357076e2e8') in 0.024859 seconds 
+  Import took 0.027903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Quiver.fbx
+  artifactKey: Guid(7a0b88001c2a58d40a170a04f5fd8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Quiver.fbx using Guid(7a0b88001c2a58d40a170a04f5fd8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1edd6109969e986dcd7fc3490c86cfe') in 0.022539 seconds 
+  Import took 0.025946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/FilledMagicBook.fbx
+  artifactKey: Guid(8ab3cff539c92f94ebea089a4618c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/FilledMagicBook.fbx using Guid(8ab3cff539c92f94ebea089a4618c35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8970155f1965f662656b8756205d0696') in 0.025146 seconds 
+  Import took 0.028614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Gun.fbx
+  artifactKey: Guid(39e2754092b377b4f81db2677617d6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Gun.fbx using Guid(39e2754092b377b4f81db2677617d6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b87ca77c3fac97170f038230b41a41a') in 0.022362 seconds 
+  Import took 0.025439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Crossbow.fbx
+  artifactKey: Guid(01eeb76c674d9ef4fb75c3602e24f092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Crossbow.fbx using Guid(01eeb76c674d9ef4fb75c3602e24f092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eef980c61bbaa5fbbb7d5ab08a6adb3') in 0.021883 seconds 
+  Import took 0.025399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/SmallMagicStaff.fbx
+  artifactKey: Guid(c44aac7a696c3fb4a97388e2c316e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/SmallMagicStaff.fbx using Guid(c44aac7a696c3fb4a97388e2c316e8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ec610a6792fd4ab85637f42be4999a') in 0.021139 seconds 
+  Import took 0.024177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/BigHammer.fbx
+  artifactKey: Guid(1785c7ae1a6aa2d45a4913307e3343a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/BigHammer.fbx using Guid(1785c7ae1a6aa2d45a4913307e3343a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcf62247eb8704884711bcc1e024033') in 0.024093 seconds 
+  Import took 0.027276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Cudgel.fbx
+  artifactKey: Guid(7270e6a44070fe94e8b17489582a43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Cudgel.fbx using Guid(7270e6a44070fe94e8b17489582a43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0598d51c7afd2c15ad3a57a4c3edb16f') in 0.021993 seconds 
+  Import took 0.024840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Bow.fbx
+  artifactKey: Guid(613157d90bc732b44ae00e1ccc2cfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Bow.fbx using Guid(613157d90bc732b44ae00e1ccc2cfcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1db75cfefc12fb514e18bec2924696') in 0.022857 seconds 
+  Import took 0.025816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/FenceShield.fbx
+  artifactKey: Guid(a17cadbf5c239c743b12c5d4a805b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/FenceShield.fbx using Guid(a17cadbf5c239c743b12c5d4a805b755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f5de3fc001a2086d6c36df885b7f047') in 0.023658 seconds 
+  Import took 0.026639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/MagicBook.fbx
+  artifactKey: Guid(04e5b198733aea245b8358bb8e90e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/MagicBook.fbx using Guid(04e5b198733aea245b8358bb8e90e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18d5c86080f80f4cde2d044a2e5ce6a') in 0.021495 seconds 
+  Import took 0.024465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Shield.fbx
+  artifactKey: Guid(f276afff91e6c164898c5acfd771e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/Shield.fbx using Guid(f276afff91e6c164898c5acfd771e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '396b247d3f3d3e80ae35e7811ad274b6') in 0.025005 seconds 
+  Import took 0.028024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/SmallHammer.fbx
+  artifactKey: Guid(237b7a1cbdaecfb4f976bc9e8595c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Weapons/Weapons/FBX/SmallHammer.fbx using Guid(237b7a1cbdaecfb4f976bc9e8595c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3961e186ae1861aa6515c79c56a4cba') in 0.023188 seconds 
+  Import took 0.026227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.666522 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c50c6b02d9b73c5e2e4a85549794a4') in 0.014190 seconds 
+  Import took 0.018555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9424499d8ed03e8df785259fedae1b3') in 0.014241 seconds 
+  Import took 0.018974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
+  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c50c6b02d9b73c5e2e4a85549794a4') in 0.016160 seconds 
+  Import took 0.019634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
+  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4de0a7a5e4ce4511bc09095573cae8b') in 0.019410 seconds 
+  Import took 0.023132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png
+  artifactKey: Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark@2x.png using Guid(c223e0c507e2c6549a2cb97441b62cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9424499d8ed03e8df785259fedae1b3') in 0.009130 seconds 
+  Import took 0.013273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
+  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c673a4f73ecb39b34c0c364ab5d41a87') in 0.009493 seconds 
+  Import took 0.012574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.686499 seconds.
+  path: Assets/DangerousDungeons/Assets/ReliquiasYTemplos/PyramidShip/Package/AncientPyramidShip.gif
+  artifactKey: Guid(5e267dad885acdb4fa26ef92292e3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ReliquiasYTemplos/PyramidShip/Package/AncientPyramidShip.gif using Guid(5e267dad885acdb4fa26ef92292e3d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450f1e1e105a82e65c9bec8c55b6a1e6') in 0.024571 seconds 
+  Import took 0.030230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/DangerousDungeons/Assets/ReliquiasYTemplos/Ancient Treasure/Package/AncientPyramidShip.gif
+  artifactKey: Guid(fd8b85e8df59c4c4baf6c4f4f42a6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ReliquiasYTemplos/Ancient Treasure/Package/AncientPyramidShip.gif using Guid(fd8b85e8df59c4c4baf6c4f4f42a6cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10ae68aa94818e315f519acd9d9277e') in 0.014912 seconds 
+  Import took 0.018372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928572 seconds.
+  path: Assets/DangerousDungeons/Assets/ReliquiasYTemplos/Ancient Treasure/Package/AncientTreasure.png
+  artifactKey: Guid(002dc1604d1684f4499135757651f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ReliquiasYTemplos/Ancient Treasure/Package/AncientTreasure.png using Guid(002dc1604d1684f4499135757651f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6072e72ee9a571ae95d7587e66b93d54') in 0.013848 seconds 
+  Import took 0.018330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6418a2c11981f0acf802666f81ff2714') in 0.013017 seconds 
+  Import took 0.016443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626b8d703df2186d7c867ee863820d3e') in 0.035785 seconds 
+  Import took 0.044315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000907 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png
+  artifactKey: Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark.png using Guid(8e3ec2dfd58b79842aa78376678a9a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6418a2c11981f0acf802666f81ff2714') in 0.013229 seconds 
+  Import took 0.016711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png
+  artifactKey: Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-dark@2x.png using Guid(9c6313a5316f8a34b852bf94ff96e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626b8d703df2186d7c867ee863820d3e') in 0.022171 seconds 
+  Import took 0.027241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/DangerousDungeons/Assets/ReliquiasYTemplos/Ancient Treasure/Package/AncientTreasure.png
+  artifactKey: Guid(002dc1604d1684f4499135757651f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ReliquiasYTemplos/Ancient Treasure/Package/AncientTreasure.png using Guid(002dc1604d1684f4499135757651f12f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6072e72ee9a571ae95d7587e66b93d54') in 0.016498 seconds 
+  Import took 0.020416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png
+  artifactKey: Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light.png using Guid(e676ab7aa99535447a763c9f88bf9260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b0a8c754a76bc310ba5fbde663e255') in 0.021873 seconds 
+  Import took 0.038249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.074271 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png
+  artifactKey: Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/back-light@2x.png using Guid(f5c57327df0fa294c8209aa216435167) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9126f2c6a09177ddfe777bcef538ff86') in 0.036656 seconds 
+  Import took 0.045562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Props_grp1_DiffuseMap- 4K.png
+  artifactKey: Guid(f4c4bbbafd7ad9f449ba10f3bfab93f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Props_grp1_DiffuseMap- 4K.png using Guid(f4c4bbbafd7ad9f449ba10f3bfab93f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676368b168163eda7c0f46ce1d9bd687') in 0.057605 seconds 
+  Import took 0.062629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd
+  artifactKey: Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine_Light.psd using Guid(18775b51e3bd42299fd30bd036ea982f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633c128230dd65edd71219b64727c0ca') in 0.038762 seconds 
+  Import took 0.042129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Blocks_DiffuseMap- 4K.png
+  artifactKey: Guid(8a155aabf78bfef4280cb67129356c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Blocks_DiffuseMap- 4K.png using Guid(8a155aabf78bfef4280cb67129356c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '798c6a0292686c9a43bcea4bcf41f2ee') in 0.025537 seconds 
+  Import took 0.032903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Walls_DiffuseMap- 4K.png
+  artifactKey: Guid(0c38dcb2579a3064db25daa031de3ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Walls_DiffuseMap- 4K.png using Guid(0c38dcb2579a3064db25daa031de3ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93504eb20ff27177026029bffd47db37') in 0.032062 seconds 
+  Import took 0.035248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd
+  artifactKey: Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom.psd using Guid(ca51b19024094d1b87f3e07edb0a75fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04523af2aeb3be0a322de57cd8995ba7') in 0.019440 seconds 
+  Import took 0.024982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd
+  artifactKey: Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBaseLine.psd using Guid(8bc445bb79654bf496c92d0407840a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7357f28f43c0526a211b844ba791d3eb') in 0.019272 seconds 
+  Import took 0.024751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Props_grp2_DiffuseMap- 4K.png
+  artifactKey: Guid(38460ef3632b0af448073c5f754183a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/ObjetosIndoor/Textures/Diffuse/BAKE_Props_grp2_DiffuseMap- 4K.png using Guid(38460ef3632b0af448073c5f754183a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9c02064706c8c4b918bcba5a544df8') in 0.043786 seconds 
+  Import took 0.047535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000763 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd
+  artifactKey: Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignBottom_Light.psd using Guid(585b70cb75dd43efbfead809c30a1731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a079342de24d14c65f157b6c7e0ae6f7') in 0.010308 seconds 
+  Import took 0.013416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e2320c4b78815b8c21ff039181187') in 0.009504 seconds 
+  Import took 0.012662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001950 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd
+  artifactKey: Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine.psd using Guid(0d9a36012a224080966c7b55896aa0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1e2320c4b78815b8c21ff039181187') in 0.008926 seconds 
+  Import took 0.012184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010537 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd
+  artifactKey: Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCapLine_Light.psd using Guid(49679f302ac6408697f6b9314a38985c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba262f6c54a6ef3152a07427159dbd1b') in 0.011457 seconds 
+  Import took 0.015370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd
+  artifactKey: Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo.psd using Guid(c76700ea0062413d9f69409b4e9e151b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75e73d85ef0e0c060f23d1a1f75a4614') in 0.019870 seconds 
+  Import took 0.023151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd
+  artifactKey: Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignFlush.psd using Guid(691475c57a824010be0c6f474caeb7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd247c4f0b1d0cddedcebb838ad6dbaaf') in 0.020088 seconds 
+  Import took 0.023463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd
+  artifactKey: Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter.psd using Guid(81ed8c76d2bc4a4c95d092c98af4e58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b65032cf944f91dee952901c4484ca') in 0.020673 seconds 
+  Import took 0.023667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7e1874d9f45d33675d9d02e0db557') in 0.011611 seconds 
+  Import took 0.014766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd
+  artifactKey: Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenter_Light.psd using Guid(6ace62d30f494c948b71d5594afce11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc1b025f9f6dd963f126fba6a803bed') in 0.009940 seconds 
+  Import took 0.012832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011115 seconds.
+  path: Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd
+  artifactKey: Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.textmeshpro/Editor Resources/Textures/btn_AlignCenterGeo_Light.psd using Guid(35ff0937876540d3bd4b6a941df62a92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af7e1874d9f45d33675d9d02e0db557') in 0.008493 seconds 
+  Import took 0.011682 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

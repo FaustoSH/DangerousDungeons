@@ -5,10 +5,62 @@ using UnityEngine;
 public class MikeController : MonoBehaviour
 {
     private Animator animator;
+    public GameObject Espada;
+    public GameObject Escudo;
+    public GameObject Hacha;
     // Start is called before the first frame update
     void Start()
     {
         animator= GetComponent<Animator>();
+        if (!PlayerPrefs.HasKey("Espada"))
+        {
+            PlayerPrefs.SetInt("Espada", 1); //De momento los pongo a 1 para probar a cambiar de arma
+        }
+        if (!PlayerPrefs.HasKey("Hacha"))
+        {
+            PlayerPrefs.SetInt("Hacha", 1); //De momento los pongo a 1 para probar a cambiar de arma
+        }
+        if (!PlayerPrefs.HasKey("Inventario"))
+        {
+            PlayerPrefs.SetInt("Inventario", 0);
+        }else
+        {
+            switch (PlayerPrefs.GetInt("Inventario"))
+            {
+                case 0:
+                    Espada.SetActive(false);
+                    Escudo.SetActive(false);
+                    Hacha.SetActive(false);
+                break;
+                case 1:
+                    Hacha.SetActive(false);
+                    if(PlayerPrefs.GetInt("Espada")==1)
+                    {
+                        Espada.SetActive(true);
+                        Escudo.SetActive(true);
+                    }else
+                    {
+                        PlayerPrefs.SetInt("Inventario", 0);
+                    }
+                break;
+                case 2:
+                    Espada.SetActive(false);
+                    Escudo.SetActive(false);
+                    if (PlayerPrefs.GetInt("Hacha") == 1)
+                    {
+                        Hacha.SetActive(true);
+                    }
+                    else
+                    {
+                        PlayerPrefs.SetInt("Inventario", 0);
+                    }
+                break;
+                default:
+                    PlayerPrefs.SetInt("Inventario", 0);
+                break;
+            }
+        }
+
     }
 
     // Update is called once per frame
@@ -20,6 +72,8 @@ public class MikeController : MonoBehaviour
         float giro=0;
         position = new Vector3(0, 0, 0);
         quaternion = transform.rotation;
+        
+
         if (Input.GetKey(KeyCode.W))
         {
             
@@ -86,5 +140,56 @@ public class MikeController : MonoBehaviour
         quaternion *= Quaternion.Euler(0, giro, 0);
         transform.rotation = quaternion;
 
+        if (Input.GetKey(KeyCode.Alpha0))
+        {
+            PlayerPrefs.SetInt("Inventario", 0);
+            Debug.Log("Inventario: " + PlayerPrefs.GetInt("Inventario"));
+        }
+        else if (Input.GetKey(KeyCode.Alpha1))
+        {
+            PlayerPrefs.SetInt("Inventario", 1);
+            Debug.Log("Inventario: " + PlayerPrefs.GetInt("Inventario"));
+        }
+        else if (Input.GetKey(KeyCode.Alpha2))
+        {
+            PlayerPrefs.SetInt("Inventario", 2);
+            Debug.Log("Inventario: " + PlayerPrefs.GetInt("Inventario"));
+        }
+
+        switch (PlayerPrefs.GetInt("Inventario"))
+        {
+            case 0:
+                Espada.SetActive(false);
+                Escudo.SetActive(false);
+                Hacha.SetActive(false);
+                break;
+            case 1:
+                Hacha.SetActive(false);
+                if (PlayerPrefs.GetInt("Espada") == 1)
+                {
+                    Espada.SetActive(true);
+                    Escudo.SetActive(true);
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("Inventario", 0);
+                }
+                break;
+            case 2:
+                Espada.SetActive(false);
+                Escudo.SetActive(false);
+                if (PlayerPrefs.GetInt("Hacha") == 1)
+                {
+                    Hacha.SetActive(true);
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("Inventario", 0);
+                }
+                break;
+            default:
+                PlayerPrefs.SetInt("Inventario", 0);
+                break;
+        }
     }
 }
