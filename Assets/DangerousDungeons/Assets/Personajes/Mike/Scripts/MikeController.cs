@@ -11,14 +11,15 @@ public class MikeController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.DeleteAll();//Eliminar esta linea cuando se vaya a exportar el juego
         animator= GetComponent<Animator>();
         if (!PlayerPrefs.HasKey("Espada"))
         {
-            PlayerPrefs.SetInt("Espada", 1); //De momento los pongo a 1 para probar a cambiar de arma
+            PlayerPrefs.SetInt("Espada", 0);
         }
         if (!PlayerPrefs.HasKey("Hacha"))
         {
-            PlayerPrefs.SetInt("Hacha", 1); //De momento los pongo a 1 para probar a cambiar de arma
+            PlayerPrefs.SetInt("Hacha", 0);
         }
         if (!PlayerPrefs.HasKey("Inventario"))
         {
