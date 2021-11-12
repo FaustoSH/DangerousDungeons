@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class MikeController : MonoBehaviour
 {
@@ -8,26 +9,28 @@ public class MikeController : MonoBehaviour
     public GameObject Espada;
     public GameObject Escudo;
     public GameObject Hacha;
+    public Image barraEstamina;
+    public Sprite[] spriteStamina;
     private int estamina;
     private float estaminaVariable;
     // Start is called before the first frame update
     void Start()
     {
-        estamina = 0;
+        estamina = 10;
         estaminaVariable = 0;
         PlayerPrefs.DeleteAll();//Eliminar esta linea cuando se vaya a exportar el juego
         animator= GetComponent<Animator>();
         if (!PlayerPrefs.HasKey("Espada"))
         {
-            PlayerPrefs.SetInt("Espada", 1);
+            PlayerPrefs.SetInt("Espada", 0);
         }
         if (!PlayerPrefs.HasKey("Hacha"))
         {
-            PlayerPrefs.SetInt("Hacha", 1);
+            PlayerPrefs.SetInt("Hacha", 0);
         }
         if (!PlayerPrefs.HasKey("Inventario"))
         {
-            PlayerPrefs.SetInt("Inventario", 1);
+            PlayerPrefs.SetInt("Inventario", 0);
         }else
         {
             GestionInventario();
@@ -50,6 +53,10 @@ public class MikeController : MonoBehaviour
 
 
         AtaqueYMovimiento();
+
+
+        barraEstamina.sprite = spriteStamina[estamina];
+       
         GestionInventario();
     }
     void AtaqueYMovimiento()
@@ -63,22 +70,22 @@ public class MikeController : MonoBehaviour
 
         if (!animator.GetCurrentAnimatorStateInfo(0).IsTag("Atacando"))
         {
-            if (Input.GetKey(KeyCode.UpArrow)&&estamina>=3)
+            if (Input.GetKey(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 0);
             }
-            else if (Input.GetKey(KeyCode.DownArrow)&& estamina >= 7)
+            else if (Input.GetKey(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 7;
                 animator.SetInteger("Ataque", 1);
             }
-            else if (Input.GetKey(KeyCode.LeftArrow)&&estamina >= 2)
+            else if (Input.GetKey(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 2;
                 animator.SetInteger("Ataque", 2);
             }
-            else if (Input.GetKey(KeyCode.RightArrow)&&estamina >= 3)
+            else if (Input.GetKey(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0)
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 3);

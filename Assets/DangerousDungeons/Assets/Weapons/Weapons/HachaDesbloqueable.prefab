@@ -77,6 +77,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arma: {fileID: 3388632543161298944}
+  inventario: {fileID: 0}
+  spriteInventario:
+  - {fileID: 6996492222815415416, guid: 8581e24faf283a743bae98e47262525f, type: 3}
+  - {fileID: 3710196622539882684, guid: 8581e24faf283a743bae98e47262525f, type: 3}
+  - {fileID: -4221830926778613084, guid: 8581e24faf283a743bae98e47262525f, type: 3}
+  - {fileID: 6380286997473437221, guid: 8581e24faf283a743bae98e47262525f, type: 3}
 --- !u!1001 &2578238810625674577
 PrefabInstance:
   m_ObjectHideFlags: 0

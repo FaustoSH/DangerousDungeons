@@ -412,6 +412,19 @@ MonoBehaviour:
   Espada: {fileID: 919132148877854581}
   Escudo: {fileID: 919132147940599732}
   Hacha: {fileID: 919132148793756662}
+  barraEstamina: {fileID: 0}
+  spriteStamina:
+  - {fileID: -2824246438418263547, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -1179612447201481224, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -6754107248488744418, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -6879705133610607156, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -2915232049920554525, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -8891530053873129849, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: 8341709467837673249, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -3557713750152800917, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: 4193453094298876223, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: 2543428149980850096, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -3005271786428899087, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
 --- !u!1 &2998751910914766349
 GameObject:
   m_ObjectHideFlags: 0
