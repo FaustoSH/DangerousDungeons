@@ -354,7 +354,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: 2d90833969e694c4faf294caadb38f46, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -383,7 +383,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: b127a512e54de7b419f469900ee1fbfb, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -521,7 +521,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: 6b5ad61fa253af74f96f35634fc808ce, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -798,7 +798,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: d0d32c40d06ac3e4ca39c1f6ac71aaf0, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -1019,8 +1019,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions:
   - first: {fileID: -7365736709685038193}
     second: []
-  m_StateMachineBehaviours:
-  - {fileID: -2607217030370248518}
+  m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 780, y: 0, z: 0}
   m_EntryPosition: {x: 70, y: -30, z: 0}
   m_ExitPosition: {x: 780, y: 40, z: 0}
@@ -1153,19 +1152,6 @@ AnimatorStateMachine:
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 460, y: 10, z: 0}
   m_DefaultState: {fileID: -4804599748960263401}
---- !u!114 &-2607217030370248518
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d91dd5e70a6108a4ca0d2674d1e30f70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  caderas: {fileID: 0}
 --- !u!1109 &-2583894525612034142
 AnimatorTransition:
   m_ObjectHideFlags: 1
@@ -1510,7 +1496,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: d0d32c40d06ac3e4ca39c1f6ac71aaf0, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -1603,7 +1589,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: ade0bcfa7406f1340bb62f45824250c7, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -2347,7 +2333,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: 3625fcc9452b85f45aef8fa9f332b488, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -2469,7 +2455,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: 97ebeffb3b558b845bb799a1409beab1, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -2532,7 +2518,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: a75e3ba9fa23ef04db5b703170654837, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -2845,7 +2831,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: d0d32c40d06ac3e4ca39c1f6ac71aaf0, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -2902,7 +2888,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: -203655887218126122, guid: d4d3596cb9b15ff48a323681a685e627, type: 3}
-  m_Tag: 
+  m_Tag: Atacando
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
