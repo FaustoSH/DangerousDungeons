@@ -151,12 +151,12 @@ TextureImporter:
       name: Estamina_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 62
-        width: 39
+        x: 1
+        y: 63
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: Estamina_1
       rect:
         serializedVersion: 2
-        x: 12
-        y: 56
-        width: 39
+        x: 1
+        y: 57
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -193,12 +193,12 @@ TextureImporter:
       name: Estamina_2
       rect:
         serializedVersion: 2
-        x: 12
-        y: 50
-        width: 39
+        x: 1
+        y: 51
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: Estamina_3
       rect:
         serializedVersion: 2
-        x: 12
-        y: 44
-        width: 39
+        x: 1
+        y: 45
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: Estamina_4
       rect:
         serializedVersion: 2
-        x: 12
-        y: 38
-        width: 39
+        x: 1
+        y: 39
+        width: 69
         height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Estamina_5
       rect:
         serializedVersion: 2
-        x: 12
-        y: 32
-        width: 39
+        x: 1
+        y: 33
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: Estamina_6
       rect:
         serializedVersion: 2
-        x: 12
-        y: 26
-        width: 39
+        x: 1
+        y: 27
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: Estamina_7
       rect:
         serializedVersion: 2
-        x: 12
-        y: 20
-        width: 39
+        x: 1
+        y: 21
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: Estamina_8
       rect:
         serializedVersion: 2
-        x: 12
-        y: 14
-        width: 39
+        x: 1
+        y: 15
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: Estamina_9
       rect:
         serializedVersion: 2
-        x: 12
-        y: 8
-        width: 39
+        x: 1
+        y: 9
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: Estamina_10
       rect:
         serializedVersion: 2
-        x: 12
-        y: 2
-        width: 39
+        x: 1
+        y: 3
+        width: 69
         height: 5
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

@@ -11,14 +11,25 @@ public class MikeController : MonoBehaviour
     public GameObject Hacha;
     public Image barraEstamina;
     public Sprite[] spriteStamina;
+    public Image barraVida;
+    public Sprite[] spriteVida;
     private int estamina;
     private float estaminaVariable;
+    private int vida;
+    private float vidaVariable;
+
     // Start is called before the first frame update
     void Start()
     {
+        PlayerPrefs.DeleteAll();//Eliminar esta linea cuando se vaya a exportar el juego
+
         estamina = 10;
         estaminaVariable = 0;
-        PlayerPrefs.DeleteAll();//Eliminar esta linea cuando se vaya a exportar el juego
+        vida = 10;
+        vidaVariable = 0;
+
+
+        
         animator= GetComponent<Animator>();
         if (!PlayerPrefs.HasKey("Espada"))
         {
@@ -41,21 +52,29 @@ public class MikeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float cambioPorSegundo = 0.5f;
-        estaminaVariable += cambioPorSegundo * Time.deltaTime;
+        float cambioPorSegundoEstamina = 0.5f, cambioPorSegundoVida=0.2f;
+        estaminaVariable += cambioPorSegundoEstamina * Time.deltaTime;
+        vidaVariable += cambioPorSegundoVida * Time.deltaTime;
         if(estaminaVariable>=1.0)
         {
             if (estamina < 10)
                 estamina++;
             estaminaVariable = 0;
         }
-        Debug.Log(estamina);
+        if(vidaVariable>=1.0)
+        {
+            if (vida < 10)
+                vida++;
+            vidaVariable = 0;
+        }
+        Debug.Log("Vida="+vida);
 
 
         AtaqueYMovimiento();
 
 
         barraEstamina.sprite = spriteStamina[estamina];
+        barraVida.sprite = spriteVida[vida];
        
         GestionInventario();
     }
