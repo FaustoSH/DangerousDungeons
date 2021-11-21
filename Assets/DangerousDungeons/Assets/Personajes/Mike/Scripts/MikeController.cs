@@ -17,6 +17,7 @@ public class MikeController : MonoBehaviour
     private float estaminaVariable;
     private int vida;
     private float vidaVariable;
+    public int ataqueEnCurso;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,7 @@ public class MikeController : MonoBehaviour
         estaminaVariable = 0;
         vida = 10;
         vidaVariable = 0;
+        ataqueEnCurso = -1;
 
 
         
@@ -89,25 +91,37 @@ public class MikeController : MonoBehaviour
 
         if (!animator.GetCurrentAnimatorStateInfo(0).IsTag("Atacando"))
         {
-            if (Input.GetKey(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0)
+            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 0);
+                ataqueEnCurso = 0;
             }
-            else if (Input.GetKey(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0)
+            else if (Input.GetKeyDown(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 7;
+                ataqueEnCurso = 1;
+                if(PlayerPrefs.GetInt("Inventario") ==1)
+                {
+                    Espada.GetComponent<WeaponsController>().multiplicador = 2;
+                    Espada.GetComponent<WeaponsController>().contador = 0;
+                }
                 animator.SetInteger("Ataque", 1);
+                
             }
-            else if (Input.GetKey(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0)
+            else if (Input.GetKeyDown(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 2;
+                ataqueEnCurso = 2;
                 animator.SetInteger("Ataque", 2);
+                
             }
-            else if (Input.GetKey(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0)
+            else if (Input.GetKeyDown(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0)
             {
                 estamina -= 3;
+                ataqueEnCurso = 3;
                 animator.SetInteger("Ataque", 3);
+                
             }
             else if (Input.GetKey(KeyCode.W))
             {
