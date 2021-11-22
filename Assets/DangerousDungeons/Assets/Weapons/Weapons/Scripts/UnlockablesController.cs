@@ -5,24 +5,23 @@ using UnityEngine.UI;
 
 public class UnlockablesController : MonoBehaviour
 {
-    public GameObject arma;
     public Image inventario;
     public Sprite[] spriteInventario;
     private void OnTriggerEnter(Collider collider)
     {
-        if(collider.tag=="Player")
+        if(collider.tag=="Player") //Cuando se detecta una colisión con el jugador
         {
-            if(arma.name=="ConjuntoDeArmas")
+            if(this.name=="ConjuntoDeArmas") //Se comprueba qué arma es con la que se ha colisionado
             {
-                PlayerPrefs.SetInt("Espada", 1);
-                if(PlayerPrefs.GetInt("Hacha")==0)
-                {
+                PlayerPrefs.SetInt("Espada", 1); //Se desbloquea el arma
+                if(PlayerPrefs.GetInt("Hacha")==0) //Se elige el sprite del inventario 
+                { 
                     inventario.sprite = spriteInventario[1];
                 }else
                 {
                     inventario.sprite = spriteInventario[3];
                 }
-            }else if(arma.name=="BigAxe")
+            }else if(this.name=="BigAxe") //Idem para la otra arma
             {
                 PlayerPrefs.SetInt("Hacha", 1);
                 if (PlayerPrefs.GetInt("Espada") == 0)
@@ -34,7 +33,7 @@ public class UnlockablesController : MonoBehaviour
                     inventario.sprite = spriteInventario[3];
                 }
             }
-            Destroy(arma.transform.parent.gameObject);
+            Destroy(this.transform.parent.gameObject);
         }
     }
 }

@@ -15,6 +15,7 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //La posición de la cámara viene determianda por la posición de Mike
         Vector3 mikePosition = new Vector3(mike.transform.position.x, mike.transform.position.y + distancia, mike.transform.position.z - distancia);
         transform.position = mikePosition;
     }
