@@ -11,14 +11,27 @@ public class MikeController : MonoBehaviour
     public GameObject Hacha;
     public Image barraEstamina;
     public Sprite[] spriteStamina;
+    public Image barraVida;
+    public Sprite[] spriteVida;
     private int estamina;
-    private float estaminaVariable;
+    private float contadorEstamina;
+    private int vida;
+    private float contadorVida;
+    public int ataqueEnCurso;
+
     // Start is called before the first frame update
     void Start()
     {
-        estamina = 10;
-        estaminaVariable = 0;
         PlayerPrefs.DeleteAll();//Eliminar esta linea cuando se vaya a exportar el juego
+
+        estamina = 10;
+        contadorEstamina = 0;
+        vida = 10;
+        contadorVida = 0;
+        ataqueEnCurso = -1;
+
+
+        //Si no se han creado los player prefs que ontrolan el inventario se crean y se inicializan
         animator= GetComponent<Animator>();
         if (!PlayerPrefs.HasKey("Espada"))
         {
@@ -33,7 +46,7 @@ public class MikeController : MonoBehaviour
             PlayerPrefs.SetInt("Inventario", 0);
         }else
         {
-            GestionInventario();
+            GestionInventario(); //Se visualiza el inventario por primera vez
         }
 
     }
@@ -41,55 +54,78 @@ public class MikeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float cambioPorSegundo = 0.5f;
-        estaminaVariable += cambioPorSegundo * Time.deltaTime;
-        if(estaminaVariable>=1.0)
+        float cambioPorSegundoEstamina = 0.5f, cambioPorSegundoVida=0.2f;
+        contadorEstamina += cambioPorSegundoEstamina * Time.deltaTime;
+        contadorVida += cambioPorSegundoVida * Time.deltaTime;
+        if(contadorEstamina>=1.0) //Cuando se llega a la unidad se aumenta la variable
         {
             if (estamina < 10)
                 estamina++;
-            estaminaVariable = 0;
+            contadorEstamina = 0;
         }
-        Debug.Log(estamina);
+        if(contadorVida>=1.0)
+        {
+            if (vida < 10)
+                vida++;
+            contadorVida = 0;
+        }
+        Debug.Log("Vida="+vida);
 
 
-        AtaqueYMovimiento();
+        AtaqueYMovimiento(); //Se checkea si se han pulsado alguna tecla de ataque o de movimiento y se realiza la acción correspondiente
 
-
-        barraEstamina.sprite = spriteStamina[estamina];
+        //Después de los cambios que pueden haberse dado en la función AtaqueYMovimiento se actualizan la vida y la estamina
+        barraEstamina.sprite = spriteStamina[estamina]; 
+        barraVida.sprite = spriteVida[vida];
        
-        GestionInventario();
+        GestionInventario(); //Si se ha modificado el arma seleccionada se actualiza la visualización en el inventario
     }
     void AtaqueYMovimiento()
     {
-        //Debug.Log(animator.GetInteger("Velocidad") + "-" + animator.GetInteger("Direccion"));
         Vector3 position;
         Quaternion quaternion;
         float giro = 0;
         position = new Vector3(0, 0, 0);
         quaternion = transform.rotation;
 
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsTag("Atacando"))
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsTag("Atacando")) //Si no se está realizando una animación de combate se comprueba si se quiere hacer algún ataque o moverse
         {
-            if (Input.GetKey(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0)
+
+            //Teclas de ataques
+            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 0);
+                ataqueEnCurso = 0;
             }
-            else if (Input.GetKey(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0)
+            else if (Input.GetKeyDown(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 7;
+                ataqueEnCurso = 1;
+                if(PlayerPrefs.GetInt("Inventario") ==1)
+                {
+                    Espada.GetComponent<WeaponsController>().multiplicador = 2;
+                    Espada.GetComponent<WeaponsController>().contador = 0;
+                }
                 animator.SetInteger("Ataque", 1);
+                
             }
-            else if (Input.GetKey(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0)
+            else if (Input.GetKeyDown(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0)
             {
                 estamina -= 2;
+                ataqueEnCurso = 2;
                 animator.SetInteger("Ataque", 2);
+                
             }
-            else if (Input.GetKey(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0)
+            else if (Input.GetKeyDown(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0)
             {
                 estamina -= 3;
+                ataqueEnCurso = 3;
                 animator.SetInteger("Ataque", 3);
+                
             }
+
+            //Teclas de movimiento
             else if (Input.GetKey(KeyCode.W))
             {
 
@@ -154,24 +190,23 @@ public class MikeController : MonoBehaviour
                 animator.SetInteger("Direccion", 0);
             }
 
+            //Se actualiza la posición
             transform.position += quaternion * position;
             quaternion *= Quaternion.Euler(0, giro, 0);
             transform.rotation = quaternion;
 
+            //Teclas de inventario
             if (Input.GetKey(KeyCode.Alpha0))
             {
                 PlayerPrefs.SetInt("Inventario", 0);
-                //Debug.Log("Inventario: " + PlayerPrefs.GetInt("Inventario"));
             }
             else if (Input.GetKey(KeyCode.Alpha1))
             {
                 PlayerPrefs.SetInt("Inventario", 1);
-                //Debug.Log("Inventario: " + PlayerPrefs.GetInt("Inventario"));
             }
             else if (Input.GetKey(KeyCode.Alpha2))
             {
                 PlayerPrefs.SetInt("Inventario", 2);
-                //Debug.Log("Inventario: " + PlayerPrefs.GetInt("Inventario"));
             }
         }
     }
