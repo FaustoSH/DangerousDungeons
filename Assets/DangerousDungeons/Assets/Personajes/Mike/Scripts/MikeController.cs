@@ -15,9 +15,10 @@ public class MikeController : MonoBehaviour
     public Sprite[] spriteVida;
     private int estamina;
     private float contadorEstamina;
-    private int vida;
+    public int vida;
     private float contadorVida;
     public int ataqueEnCurso;
+    private float enfriamiemtoHabilidades;
 
     // Start is called before the first frame update
     void Start()
@@ -29,6 +30,7 @@ public class MikeController : MonoBehaviour
         vida = 10;
         contadorVida = 0;
         ataqueEnCurso = -1;
+        enfriamiemtoHabilidades = 0;
 
 
         //Si no se han creado los player prefs que ontrolan el inventario se crean y se inicializan
@@ -57,7 +59,9 @@ public class MikeController : MonoBehaviour
         float cambioPorSegundoEstamina = 0.5f, cambioPorSegundoVida=0.2f;
         contadorEstamina += cambioPorSegundoEstamina * Time.deltaTime;
         contadorVida += cambioPorSegundoVida * Time.deltaTime;
-        if(contadorEstamina>=1.0) //Cuando se llega a la unidad se aumenta la variable
+        if (enfriamiemtoHabilidades > 0)
+            enfriamiemtoHabilidades -= 1.0f * Time.deltaTime;
+        if (contadorEstamina>=1.0) //Cuando se llega a la unidad se aumenta la variable
         {
             if (estamina < 10)
                 estamina++;
@@ -76,7 +80,8 @@ public class MikeController : MonoBehaviour
 
         //Después de los cambios que pueden haberse dado en la función AtaqueYMovimiento se actualizan la vida y la estamina
         barraEstamina.sprite = spriteStamina[estamina]; 
-        barraVida.sprite = spriteVida[vida];
+        if(vida>=0&&vida<11)
+            barraVida.sprite = spriteVida[vida];
        
         GestionInventario(); //Si se ha modificado el arma seleccionada se actualiza la visualización en el inventario
     }
@@ -92,13 +97,14 @@ public class MikeController : MonoBehaviour
         {
 
             //Teclas de ataques
-            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0)
+            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0&&enfriamiemtoHabilidades<=0)
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 0);
                 ataqueEnCurso = 0;
+                enfriamiemtoHabilidades = 1.0f;
             }
-            else if (Input.GetKeyDown(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0)
+            else if (Input.GetKeyDown(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0 && enfriamiemtoHabilidades <= 0)
             {
                 estamina -= 7;
                 ataqueEnCurso = 1;
@@ -108,21 +114,24 @@ public class MikeController : MonoBehaviour
                     Espada.GetComponent<WeaponsController>().contador = 0;
                 }
                 animator.SetInteger("Ataque", 1);
-                
+                enfriamiemtoHabilidades = 1.0f;
+
             }
-            else if (Input.GetKeyDown(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0)
+            else if (Input.GetKeyDown(KeyCode.LeftArrow)&&estamina >= 2 && PlayerPrefs.GetInt("Inventario") != 0 && enfriamiemtoHabilidades <= 0)
             {
                 estamina -= 2;
                 ataqueEnCurso = 2;
                 animator.SetInteger("Ataque", 2);
-                
+                enfriamiemtoHabilidades = 1.0f;
+
             }
-            else if (Input.GetKeyDown(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0)
+            else if (Input.GetKeyDown(KeyCode.RightArrow)&&estamina >= 3&&PlayerPrefs.GetInt("Inventario")!=0 && enfriamiemtoHabilidades <= 0)
             {
                 estamina -= 3;
                 ataqueEnCurso = 3;
                 animator.SetInteger("Ataque", 3);
-                
+                enfriamiemtoHabilidades = 1.0f;
+
             }
 
             //Teclas de movimiento

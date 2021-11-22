@@ -11,10 +11,6 @@ public class EnemyController : MonoBehaviour
     private float tiempoMuerto;
     private int vidaAnterior;
     private GameObject Mike;
-    private float Distancia;
-    public float DistanciaMinima;
-    private float velocidad;
-    public RaycastHit rayo;
     private NavMeshAgent navMeshAgent;
     void Start()
     {
@@ -43,16 +39,17 @@ public class EnemyController : MonoBehaviour
             vidaAnterior = vida;
         }else
         {
-            Vector3 posicionFinal = new Vector3(Mike.transform.position.x + 0.5f, Mike.transform.position.y, Mike.transform.position.z + 0.5f);
-            navMeshAgent.destination = posicionFinal;
-            Debug.Log(navMeshAgent.remainingDistance);
-            if(navMeshAgent.remainingDistance<=0.7)
+            navMeshAgent.destination = Mike.transform.position;
+            if(navMeshAgent.remainingDistance<=1.1 && navMeshAgent.pathStatus==NavMeshPathStatus.PathComplete && navMeshAgent.remainingDistance!=Mathf.Infinity)
             {
+                transform.LookAt(Mike.transform.position);
                 animator.SetBool("Andar", false);
+                animator.SetBool("Ataque", true);
             }
             else
             {
                 animator.SetBool("Andar", true);
+                animator.SetBool("Ataque", false);
             }
                
         }
