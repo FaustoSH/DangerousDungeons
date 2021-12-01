@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class EnemyController : MonoBehaviour
 {
@@ -9,12 +10,16 @@ public class EnemyController : MonoBehaviour
     private Animator animator;
     private float tiempoMuerto;
     private int vidaAnterior;
+    private GameObject Mike;
+    private NavMeshAgent navMeshAgent;
     void Start()
     {
         //La inicialización de la vida se hace mediante la interfaz ya que los diferentes enemigos tendrán diferentes vidas iniciales
         animator = this.gameObject.GetComponent<Animator>();
         tiempoMuerto = 0;
         vidaAnterior = vida;
+        navMeshAgent = GetComponent<NavMeshAgent>();
+        Mike = GameObject.Find("Mike");
     }
 
     private void Update()
@@ -32,6 +37,21 @@ public class EnemyController : MonoBehaviour
         {
             animator.SetTrigger("Golpe");
             vidaAnterior = vida;
+        }else
+        {
+            navMeshAgent.destination = Mike.transform.position;
+            if(navMeshAgent.remainingDistance<=1.1 && navMeshAgent.pathStatus==NavMeshPathStatus.PathComplete && navMeshAgent.remainingDistance!=Mathf.Infinity)
+            {
+                transform.LookAt(Mike.transform.position);
+                animator.SetBool("Andar", false);
+                animator.SetBool("Ataque", true);
+            }
+            else
+            {
+                animator.SetBool("Andar", true);
+                animator.SetBool("Ataque", false);
+            }
+               
         }
     }
 }

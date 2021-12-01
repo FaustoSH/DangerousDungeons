@@ -418,8 +418,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 2
-  m_Constraints: 112
-  m_CollisionDetection: 0
+  m_Constraints: 116
+  m_CollisionDetection: 1
 --- !u!136 &3135233777222480959
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -480,6 +480,7 @@ MonoBehaviour:
   - {fileID: -3557713750152800917, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
   - {fileID: 4193453094298876223, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
   - {fileID: 2543428149980850096, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
+  - {fileID: -3005271786428899087, guid: 6fad74dce9a5e2c48b97e631e51a040d, type: 3}
   barraVida: {fileID: 0}
   spriteVida:
   - {fileID: -2824246438418263547, guid: 537770a5b3d41e845ba58bfac7a8f01f, type: 3}
@@ -492,6 +493,8 @@ MonoBehaviour:
   - {fileID: -3557713750152800917, guid: 537770a5b3d41e845ba58bfac7a8f01f, type: 3}
   - {fileID: 4193453094298876223, guid: 537770a5b3d41e845ba58bfac7a8f01f, type: 3}
   - {fileID: 2543428149980850096, guid: 537770a5b3d41e845ba58bfac7a8f01f, type: 3}
+  - {fileID: -3005271786428899087, guid: 537770a5b3d41e845ba58bfac7a8f01f, type: 3}
+  vida: 10
   ataqueEnCurso: 0
 --- !u!1 &2998751910914766349
 GameObject:
