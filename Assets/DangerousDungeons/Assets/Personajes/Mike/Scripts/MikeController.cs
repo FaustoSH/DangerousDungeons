@@ -19,6 +19,7 @@ public class MikeController : MonoBehaviour
     private float contadorVida;
     public int ataqueEnCurso;
     private float enfriamiemtoHabilidades;
+    public bool invulnerabilidad;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,7 @@ public class MikeController : MonoBehaviour
         contadorVida = 0;
         ataqueEnCurso = -1;
         enfriamiemtoHabilidades = 0;
+        invulnerabilidad = false;
 
 
         //Si no se han creado los player prefs que ontrolan el inventario se crean y se inicializan
@@ -97,12 +99,23 @@ public class MikeController : MonoBehaviour
         {
 
             //Teclas de ataques
-            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0&&enfriamiemtoHabilidades<=0)
+            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0 && enfriamiemtoHabilidades<=0)
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 0);
                 ataqueEnCurso = 0;
-                enfriamiemtoHabilidades = 1.0f;
+                if (PlayerPrefs.GetInt("Inventario") == 1)//Como esta habilidad es diferente para cada uno entonces hacemos una diferencia
+                {
+                    invulnerabilidad = true;
+                }else if(PlayerPrefs.GetInt("Inventario") == 2)
+                {
+                    if (vida + 3 <= 10)
+                        vida += 3;
+                    else
+                        vida = 10;
+                    Debug.Log("Vida++");
+                }
+                    enfriamiemtoHabilidades = 1.0f;
             }
             else if (Input.GetKeyDown(KeyCode.DownArrow)&& estamina >= 7 && PlayerPrefs.GetInt("Inventario") != 0 && enfriamiemtoHabilidades <= 0)
             {
@@ -197,6 +210,7 @@ public class MikeController : MonoBehaviour
             {
                 animator.SetInteger("Velocidad", 0);
                 animator.SetInteger("Direccion", 0);
+                invulnerabilidad = false;
             }
 
             //Se actualiza la posición
