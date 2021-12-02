@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class EnemyAtack : MonoBehaviour
 {
-    public GameObject Mike;
+    private GameObject Mike;
+    private void Start()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     private void OnTriggerEnter(Collider col)
     {
-        Debug.Log("Impacto");
         if (col.tag==Mike.tag)
         {
-            Mike.GetComponent<MikeController>().vida -= 1;
+            if(!Mike.GetComponent<MikeController>().invulnerabilidad && gameObject.GetComponentInParent<Animator>().GetBool("Ataque"))
+            {
+                Mike.GetComponent<MikeController>().vida -= 1;
+            }
+
         }
     }
 }
