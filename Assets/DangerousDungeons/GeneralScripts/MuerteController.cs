@@ -20,9 +20,9 @@ public class MuerteController : MonoBehaviour
     {
         if(Mike.GetComponent<MikeController>().vida<=0)
         {
-            
-            MikeHaMuerto();
             Time.timeScale = 0;
+            MikeHaMuerto();
+            enabled = false;
         }
     }
 

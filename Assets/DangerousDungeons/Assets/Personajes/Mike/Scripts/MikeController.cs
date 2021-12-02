@@ -62,7 +62,7 @@ public class MikeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float cambioPorSegundoEstamina = 0.5f, cambioPorSegundoVida=0.2f;
+        float cambioPorSegundoEstamina = 0.35f, cambioPorSegundoVida=0.2f;
         contadorEstamina += cambioPorSegundoEstamina * Time.deltaTime;
         contadorVida += cambioPorSegundoVida * Time.deltaTime;
         if (enfriamiemtoHabilidades > 0)
