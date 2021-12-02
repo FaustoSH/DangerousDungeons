@@ -13,8 +13,11 @@ public class EnemyAtack : MonoBehaviour
     {
         if (col.tag==Mike.tag)
         {
-            if(!Mike.GetComponent<MikeController>().invulnerabilidad)
+            if(!Mike.GetComponent<MikeController>().invulnerabilidad && gameObject.GetComponentInParent<Animator>().GetBool("Ataque"))
+            {
                 Mike.GetComponent<MikeController>().vida -= 1;
+            }
+
         }
     }
 }

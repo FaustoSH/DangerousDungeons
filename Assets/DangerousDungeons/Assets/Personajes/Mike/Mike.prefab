@@ -134,8 +134,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.2000015, y: 2.0470345, z: 0.3000011}
-  m_Center: {x: -0.35298496, y: 2.2420692, z: -0.000039736165}
+  m_Size: {x: 1.1999985, y: 4.274392, z: 0.3000011}
+  m_Center: {x: -0.3529872, y: 1.1283922, z: -0.00003996054}
 --- !u!114 &567122511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -497,6 +497,7 @@ MonoBehaviour:
   vida: 10
   ataqueEnCurso: 0
   invulnerabilidad: 0
+  zombiesMuertos: 0
 --- !u!1 &2998751910914766349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1107,43 +1108,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.00872
+      value: -0.0065
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.00414
+      value: 0.00562
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.00633
+      value: -0.00386
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.28957635
+      value: 0.3134334
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.57128
+      value: -0.49110505
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7518278
+      value: 0.80463135
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.15665115
+      value: -0.11464667
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -174.531
+      value: -172.914
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -38.113007
+      value: -38.444
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 107.431
+      value: 119.678
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_Name
@@ -1155,7 +1156,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 844b400f22941d348ac83f9402d4c8da, type: 3}
       propertyPath: m_TagString

@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     public int vida;
     private Animator animator;
     private float tiempoMuerto;
+    private float enfriamiento;
     private int vidaAnterior;
     private GameObject Mike;
     private NavMeshAgent navMeshAgent;
@@ -20,6 +21,7 @@ public class EnemyController : MonoBehaviour
         vidaAnterior = vida;
         navMeshAgent = GetComponent<NavMeshAgent>();
         Mike = GameObject.Find("Mike");
+        enfriamiento = 1.0f;
     }
 
     private void Update()
@@ -27,9 +29,12 @@ public class EnemyController : MonoBehaviour
         animator.SetInteger("Vida", vida);
         if (vida <= 0)
         {
+
             tiempoMuerto += 1.0f * Time.deltaTime;
             if(tiempoMuerto>=7)
             {
+                Mike.GetComponent<MikeController>().zombiesMuertos++;
+                Debug.Log("ZombiesMuertos-->"+ Mike.GetComponent<MikeController>().zombiesMuertos);
                 //Después de 7 segundos muerto se elimina al enemigo para que no gaste memoria
                 Destroy(this.gameObject);
             }
@@ -44,7 +49,13 @@ public class EnemyController : MonoBehaviour
             {
                 transform.LookAt(Mike.transform.position);
                 animator.SetBool("Andar", false);
-                animator.SetBool("Ataque", true);
+                enfriamiento -= 1.0f * Time.deltaTime;
+                if (enfriamiento <= 0)
+                {
+                    animator.SetBool("Ataque", true);
+                    enfriamiento = 1.0f;
+                }
+                
             }
             else
             {

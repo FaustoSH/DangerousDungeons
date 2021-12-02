@@ -79,7 +79,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64dc2854a5dc97e47ae04fcc032876c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arma: {fileID: 3412119363017123085}
   inventario: {fileID: 0}
   spriteInventario:
   - {fileID: 6996492222815415416, guid: 8581e24faf283a743bae98e47262525f, type: 3}
