@@ -62,9 +62,6 @@ public class MikeController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (vida <= 0)
-            EspanolesMikeHaMuerto();
-
         float cambioPorSegundoEstamina = 0.5f, cambioPorSegundoVida=0.2f;
         contadorEstamina += cambioPorSegundoEstamina * Time.deltaTime;
         contadorVida += cambioPorSegundoVida * Time.deltaTime;
@@ -94,11 +91,7 @@ public class MikeController : MonoBehaviour
         GestionInventario(); //Si se ha modificado el arma seleccionada se actualiza la visualización en el inventario
     }
 
-    private void EspanolesMikeHaMuerto()
-    {
-        SceneManager.LoadScene("EscenarioCampo");
-      
-    }
+
 
     void AtaqueYMovimiento()
     {
