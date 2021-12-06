@@ -14,6 +14,7 @@ public class EnemyController : MonoBehaviour
     private GameObject Mike;
     private NavMeshAgent navMeshAgent;
     private bool muerteNotificada;
+    public AudioClip quejarse;
     void Start()
     {
         //La inicialización de la vida se hace mediante la interfaz ya que los diferentes enemigos tendrán diferentes vidas iniciales
@@ -59,13 +60,25 @@ public class EnemyController : MonoBehaviour
                 enfriamiento -= 1.0f * Time.deltaTime;
                 if (enfriamiento <= 0)
                 {
+                    gameObject.GetComponent<AudioSource>().Pause();
                     animator.SetBool("Ataque", true);
                     enfriamiento = 1.0f;
                 }
                 
+
             }
             else
             {
+                //if (gameObject.GetComponent<AudioSource>().clip != quejarse)
+                //{
+                //    gameObject.GetComponent<AudioSource>().clip = quejarse;
+                //    gameObject.GetComponent<AudioSource>().Play();
+                //}
+                if(!gameObject.GetComponent<AudioSource>().isPlaying)
+                {
+                    gameObject.GetComponent<AudioSource>().clip = quejarse;
+                    gameObject.GetComponent<AudioSource>().Play();
+                }
                 animator.SetBool("Andar", true);
                 animator.SetBool("Ataque", false);
             }

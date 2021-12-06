@@ -23,6 +23,8 @@ public class MikeController : MonoBehaviour
     private float enfriamiemtoHabilidades;
     public bool invulnerabilidad;
     public int zombiesMuertos;
+    public AudioClip andar;
+    public AudioClip correr;
 
     // Start is called before the first frame update
     void Start()
@@ -161,6 +163,12 @@ public class MikeController : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
+                    if (!gameObject.GetComponent<AudioSource>().isPlaying||gameObject.GetComponent<AudioSource>().clip!=correr)
+                    {
+                        gameObject.GetComponent<AudioSource>().clip = correr;
+                        gameObject.GetComponent<AudioSource>().Play();
+                    }
+                        
                     position.z = 4 * Time.deltaTime;
                     animator.SetInteger("Velocidad", 2);
                     if (Input.GetKey(KeyCode.D))
@@ -180,6 +188,11 @@ public class MikeController : MonoBehaviour
                 }
                 else
                 {
+                    if (!gameObject.GetComponent<AudioSource>().isPlaying || gameObject.GetComponent<AudioSource>().clip != andar)
+                    {
+                        gameObject.GetComponent<AudioSource>().clip = andar;
+                        gameObject.GetComponent<AudioSource>().Play();
+                    }
                     position.z = 2 * Time.deltaTime;
                     animator.SetInteger("Velocidad", 1);
                     if (Input.GetKey(KeyCode.D))
@@ -220,6 +233,7 @@ public class MikeController : MonoBehaviour
                 animator.SetInteger("Direccion", 0);
                 if(enfriamiemtoHabilidades<=0)
                     invulnerabilidad = false;
+                gameObject.GetComponent<AudioSource>().Pause();
             }
 
             //Se actualiza la posición

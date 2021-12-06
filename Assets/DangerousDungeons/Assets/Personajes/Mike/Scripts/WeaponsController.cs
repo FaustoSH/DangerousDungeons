@@ -28,8 +28,10 @@ public class WeaponsController : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" && Mike.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsTag("Atacando")) //Se comprueba que se ha impactado a un enemigo mientras se atacaba
         {
             contador++; //Se aumenta el contador de golpes el cual utiliza la definitiva de la espada
+            gameObject.GetComponent<AudioSource>().Play();
             switch (Mike.GetComponent<MikeController>().ataqueEnCurso) //Se comprueba qué clase de ataque era
             {
+                
                 case 1: //Definitiva
                     if (PlayerPrefs.GetInt("Inventario") == 2)//Como las definitivas son diferentes se hace la distinción.
                     {
