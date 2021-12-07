@@ -1,3 +1,9 @@
+/*
+    Autor: Fausto Sánchez Hoya
+    Descripción: este código evita que el animator se pueda quedar atascado en un estado intermedio a la hora de atacar.
+                consiste en mantener el estado de atacando hasta el final del ataque. 
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -17,21 +23,4 @@ public class AtacksAnimationController : StateMachineBehaviour
         animator.SetInteger("Ataque", -1); //Con esto se evita que los estados de las animaciones se queden enganchados 
     }
 
-    //OnStateExit is called when a transition ends and the state machine finishes evaluating this state
-    //override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    animator.SetInteger("Ataque", -1);
-    //}
-
-    // OnStateMove is called right after Animator.OnAnimatorMove()
-    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    animator.SetInteger("Ataque", -1);
-    //}
-
-    // OnStateIK is called right after Animator.OnAnimatorIK()
-    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
-    //    // Implement code that sets up animation IK (inverse kinematics)
-    //}
 }

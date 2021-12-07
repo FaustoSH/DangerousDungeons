@@ -1,3 +1,9 @@
+/*
+    Autor: Fausto Sánchez Hoya
+    Descripción: este código se encarga de las acciones principales que desarrolla Mike y su control de vida, estamina, núméro de muertos, etc.
+ */
+
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -8,31 +14,43 @@ using UnityEngine.UI;
 public class MikeController : MonoBehaviour
 {
     private Animator animator;
+
+    //GameObjects del juego que deberán ser ocultados o mostrados 
     public GameObject Espada;
     public GameObject Escudo;
     public GameObject Hacha;
     public GameObject EscudoMagico;
     public GameObject zonaCuracion;
+    
+    //La barra de estamina y la de vida que deberán ser actualizadas en función de la vida de Mike
     public Image barraEstamina;
     public Sprite[] spriteStamina;
     public Image barraVida;
     public Sprite[] spriteVida;
+    //Los contadores de vida y estamina 
     private int estamina;
     private float contadorEstamina;
     public int vida;
     private float contadorVida;
+
+    //Variables para evitar la interrupción de habilidades o el control de estas
     public int ataqueEnCurso;
     private float enfriamiemtoHabilidades;
     public bool invulnerabilidad;
+
+    //Contador de zombies matados
     public int zombiesMuertos;
+
+    //Clips de audio que reproducir
     public AudioClip andar;
     public AudioClip correr;
 
-    // Start is called before the first frame update
     void Start()
     {
-        PlayerPrefs.DeleteAll();//Eliminar esta linea cuando se vaya a exportar el juego
+        PlayerPrefs.DeleteAll();//En un primer momento la parte del inventario se iba a mantener entre escenas pero ya que el objetivo del juego cambió cerca del final del desarrollo se ha tenido que añadir el borrado de todos los player prefs
+                                //Se podrían usar variables normales en su lugar pero su funcionamiento sigue siendo el mismo.
 
+        //Se inicializan las variables
         estamina = 10;
         contadorEstamina = 0;
         vida = 10;
@@ -63,9 +81,9 @@ public class MikeController : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
+        //Contador
         float cambioPorSegundoEstamina = 0.35f, cambioPorSegundoVida=0.2f;
         contadorEstamina += cambioPorSegundoEstamina * Time.deltaTime;
         contadorVida += cambioPorSegundoVida * Time.deltaTime;
@@ -99,6 +117,7 @@ public class MikeController : MonoBehaviour
 
     void AtaqueYMovimiento()
     {
+        //Variables locales para el desplazamiento
         Vector3 position;
         Quaternion quaternion;
         float giro = 0;
@@ -109,7 +128,7 @@ public class MikeController : MonoBehaviour
         {
 
             //Teclas de ataques
-            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0 && enfriamiemtoHabilidades<=0)
+            if (Input.GetKeyDown(KeyCode.UpArrow)&&estamina>=3 && PlayerPrefs.GetInt("Inventario") != 0 && enfriamiemtoHabilidades<=0) //El enfriamiento de habilidades se ha implementado para evitar un error por intentar lanzar varias habilidades a la vez
             {
                 estamina -= 3;
                 animator.SetInteger("Ataque", 0);
