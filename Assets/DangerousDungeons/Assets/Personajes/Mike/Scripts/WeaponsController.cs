@@ -1,3 +1,9 @@
+/*
+    Autor: Fausto Sánchez Hoya
+    Descripción: este código se encarga de inflingir el daño a los enemígos en función de la habilidad seleccionada tras un impacto.
+ */
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,7 +28,7 @@ public class WeaponsController : MonoBehaviour
             multiplicador = 1;
             contador = 0;
         }
-        if(multiplicador!=1&&PlayerPrefs.GetInt("Inventario") == 1)
+        if(multiplicador!=1&&PlayerPrefs.GetInt("Inventario") == 1) //Este if está para activar o desactivar las partículas de la definitiva de la espada
         {
             llamas.SetActive(true);
 

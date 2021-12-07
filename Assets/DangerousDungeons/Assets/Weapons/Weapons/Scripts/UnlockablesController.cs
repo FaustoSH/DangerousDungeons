@@ -1,3 +1,10 @@
+/*
+    Autor: Fausto Sánchez Hoya
+    Descripción: este código se encarga de la gestión de inventario cuando se desbloquea un nuevo objeto
+ */
+
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
