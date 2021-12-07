@@ -2017,6 +2017,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 919132148793756662, guid: bc79c458deef86b4a9122840300846a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132148877854581, guid: bc79c458deef86b4a9122840300846a2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2122254888637195434, guid: bc79c458deef86b4a9122840300846a2, type: 3}
       propertyPath: m_Volume
       value: 0.3

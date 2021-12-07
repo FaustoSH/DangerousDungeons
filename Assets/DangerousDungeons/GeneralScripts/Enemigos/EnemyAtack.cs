@@ -13,8 +13,9 @@ public class EnemyAtack : MonoBehaviour
     {
         if (col.tag==Mike.tag)
         {
-            if(!Mike.GetComponent<MikeController>().invulnerabilidad && gameObject.GetComponentInParent<Animator>().GetBool("Ataque"))
+            if(!Mike.GetComponent<MikeController>().invulnerabilidad && gameObject.GetComponentInParent<Animator>().GetBool("Ataque") && !gameObject.GetComponentInParent<Animator>().GetCurrentAnimatorStateInfo(0).IsTag("Atacando"))
             {
+                gameObject.GetComponent<AudioSource>().Play();
                 Mike.GetComponent<MikeController>().vida -= 1;
             }
 
