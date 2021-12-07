@@ -11,6 +11,8 @@ public class MikeController : MonoBehaviour
     public GameObject Espada;
     public GameObject Escudo;
     public GameObject Hacha;
+    public GameObject EscudoMagico;
+    public GameObject zonaCuracion;
     public Image barraEstamina;
     public Sprite[] spriteStamina;
     public Image barraVida;
@@ -23,6 +25,8 @@ public class MikeController : MonoBehaviour
     private float enfriamiemtoHabilidades;
     public bool invulnerabilidad;
     public int zombiesMuertos;
+    public AudioClip andar;
+    public AudioClip correr;
 
     // Start is called before the first frame update
     void Start()
@@ -112,11 +116,13 @@ public class MikeController : MonoBehaviour
                 ataqueEnCurso = 0;
                 if (PlayerPrefs.GetInt("Inventario") == 1)//Como esta habilidad es diferente para cada uno entonces hacemos una diferencia
                 {
+                    gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+                    EscudoMagico.SetActive(true);
                     invulnerabilidad = true;
-                    Debug.Log("Invencibilidad activada");
                 }
                 else if(PlayerPrefs.GetInt("Inventario") == 2)
                 {
+                    zonaCuracion.SetActive(true);
                     if (vida + 3 <= 10)
                         vida += 3;
                     else
@@ -161,6 +167,12 @@ public class MikeController : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift))
                 {
+                    if (!gameObject.GetComponent<AudioSource>().isPlaying||gameObject.GetComponent<AudioSource>().clip!=correr)
+                    {
+                        gameObject.GetComponent<AudioSource>().clip = correr;
+                        gameObject.GetComponent<AudioSource>().Play();
+                    }
+                        
                     position.z = 4 * Time.deltaTime;
                     animator.SetInteger("Velocidad", 2);
                     if (Input.GetKey(KeyCode.D))
@@ -180,6 +192,11 @@ public class MikeController : MonoBehaviour
                 }
                 else
                 {
+                    if (!gameObject.GetComponent<AudioSource>().isPlaying || gameObject.GetComponent<AudioSource>().clip != andar)
+                    {
+                        gameObject.GetComponent<AudioSource>().clip = andar;
+                        gameObject.GetComponent<AudioSource>().Play();
+                    }
                     position.z = 2 * Time.deltaTime;
                     animator.SetInteger("Velocidad", 1);
                     if (Input.GetKey(KeyCode.D))
@@ -217,11 +234,16 @@ public class MikeController : MonoBehaviour
             else
             {
                 animator.SetInteger("Velocidad", 0);
-                animator.SetInteger("Direccion", 0);
-                if(enfriamiemtoHabilidades<=0)
-                    invulnerabilidad = false;
+                animator.SetInteger("Direccion", 0);                    
+                gameObject.GetComponent<AudioSource>().Pause();
             }
-
+            if (enfriamiemtoHabilidades <= 0)
+            {
+                gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+                EscudoMagico.SetActive(false);
+                zonaCuracion.SetActive(false);
+                invulnerabilidad = false;
+            }
             //Se actualiza la posición
             transform.position += quaternion * position;
             quaternion *= Quaternion.Euler(0, giro, 0);

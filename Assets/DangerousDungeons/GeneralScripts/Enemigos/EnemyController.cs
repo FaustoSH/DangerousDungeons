@@ -59,13 +59,19 @@ public class EnemyController : MonoBehaviour
                 enfriamiento -= 1.0f * Time.deltaTime;
                 if (enfriamiento <= 0)
                 {
+                    gameObject.GetComponent<AudioSource>().Pause();
                     animator.SetBool("Ataque", true);
                     enfriamiento = 1.0f;
                 }
                 
+
             }
             else
             {
+                if(!gameObject.GetComponent<AudioSource>().isPlaying)
+                {
+                    gameObject.GetComponent<AudioSource>().Play();
+                }
                 animator.SetBool("Andar", true);
                 animator.SetBool("Ataque", false);
             }

@@ -8,6 +8,7 @@ public class WeaponsController : MonoBehaviour
     private int daño;
     public int contador;
     public int multiplicador;
+    public GameObject llamas;
     private void Start()
     {
         contador = 0;
@@ -21,6 +22,14 @@ public class WeaponsController : MonoBehaviour
             multiplicador = 1;
             contador = 0;
         }
+        if(multiplicador!=1&&PlayerPrefs.GetInt("Inventario") == 1)
+        {
+            llamas.SetActive(true);
+
+        }else if (PlayerPrefs.GetInt("Inventario") == 1)
+        {
+            llamas.SetActive(false);
+        }
         
     }
     private void OnTriggerEnter(Collider collision)
@@ -28,8 +37,10 @@ public class WeaponsController : MonoBehaviour
         if (collision.gameObject.tag == "Enemy" && Mike.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsTag("Atacando")) //Se comprueba que se ha impactado a un enemigo mientras se atacaba
         {
             contador++; //Se aumenta el contador de golpes el cual utiliza la definitiva de la espada
+            
             switch (Mike.GetComponent<MikeController>().ataqueEnCurso) //Se comprueba qué clase de ataque era
             {
+                
                 case 1: //Definitiva
                     if (PlayerPrefs.GetInt("Inventario") == 2)//Como las definitivas son diferentes se hace la distinción.
                     {
@@ -39,9 +50,11 @@ public class WeaponsController : MonoBehaviour
                     break;
                 case 2: //Ataque débil
                     collision.gameObject.GetComponent<EnemyController>().vida -= 1*multiplicador;
+                    gameObject.GetComponent<AudioSource>().Play();
                     break;
                 case 3: //Ataque fuerte
                     collision.gameObject.GetComponent<EnemyController>().vida -= 3*multiplicador;
+                    gameObject.GetComponent<AudioSource>().Play();
                     break;
 
             }
