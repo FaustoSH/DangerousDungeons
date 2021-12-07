@@ -11,6 +11,7 @@ public class MikeController : MonoBehaviour
     public GameObject Espada;
     public GameObject Escudo;
     public GameObject Hacha;
+    public GameObject EscudoMagico;
     public Image barraEstamina;
     public Sprite[] spriteStamina;
     public Image barraVida;
@@ -114,8 +115,9 @@ public class MikeController : MonoBehaviour
                 ataqueEnCurso = 0;
                 if (PlayerPrefs.GetInt("Inventario") == 1)//Como esta habilidad es diferente para cada uno entonces hacemos una diferencia
                 {
+                    gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+                    EscudoMagico.SetActive(true);
                     invulnerabilidad = true;
-                    Debug.Log("Invencibilidad activada");
                 }
                 else if(PlayerPrefs.GetInt("Inventario") == 2)
                 {
@@ -230,12 +232,15 @@ public class MikeController : MonoBehaviour
             else
             {
                 animator.SetInteger("Velocidad", 0);
-                animator.SetInteger("Direccion", 0);
-                if(enfriamiemtoHabilidades<=0)
-                    invulnerabilidad = false;
+                animator.SetInteger("Direccion", 0);                    
                 gameObject.GetComponent<AudioSource>().Pause();
             }
-
+            if (enfriamiemtoHabilidades <= 0)
+            {
+                gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+                EscudoMagico.SetActive(false);
+                invulnerabilidad = false;
+            }
             //Se actualiza la posición
             transform.position += quaternion * position;
             quaternion *= Quaternion.Euler(0, giro, 0);
