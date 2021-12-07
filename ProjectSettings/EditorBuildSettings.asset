@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MenuPrincipal.unity
+    path: Assets/DangerousDungeons/Scenes/MenuPrincipal.unity
     guid: 573c845275aaaf246bcd75933e342064
   - enabled: 1
-    path: Assets/Scenes/EscenarioCampo.unity
+    path: Assets/DangerousDungeons/Scenes/EscenarioCampo.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/EscenarioCementerio.unity
+    path: Assets/DangerousDungeons/Scenes/EscenarioCementerio.unity
     guid: d322172be18043446b8e46e659362ae2
   m_configObjects: {}
