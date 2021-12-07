@@ -1,0 +1,1019 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1348; Version 2009; 64bit' Language: 'es' Physical Memory: 16271 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64829
+Successfully changed project path to: C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
+C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.18f1 (a7d1c678663c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Fausto/Desktop/TrabajoUnity/DangerousDungeons/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   
+    VRAM:     1998 MB
+    Driver:   30.0.14.7141
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004841 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3717ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (555ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (209ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007023 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.413 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1415ms)
+		BeginReloadAssembly (216ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1096ms)
+			LoadAssemblies (151ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (387ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (266ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1443 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 73.4 MB.
+System memory in use after: 73.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 3.041300 ms (FindLiveObjects: 0.148100 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.767000 ms  DeleteObjects: 0.069300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/EscenarioCementerioMesh/NavMesh.asset
+  artifactKey: Guid(94c28171da21abf4389706d87a756e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenarioCementerioMesh/NavMesh.asset using Guid(94c28171da21abf4389706d87a756e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a263b73f3552b499fc9d3dea2bad60') in 0.046977 seconds 
+  Import took 0.049746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/EscenarioCampo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EscenarioCampo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8043b1f261c2f5c4c42e4bc82c0630') in 0.004169 seconds 
+  Import took 0.006756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.606640 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Mike.prefab
+  artifactKey: Guid(bc79c458deef86b4a9122840300846a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Mike.prefab using Guid(bc79c458deef86b4a9122840300846a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c96e8c45d91b3a5056d26223d9e873') in 0.199433 seconds 
+  Import took 0.206341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003697 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Mike/Mike.prefab
+  artifactKey: Guid(bc79c458deef86b4a9122840300846a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Mike/Mike.prefab using Guid(bc79c458deef86b4a9122840300846a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55c96e8c45d91b3a5056d26223d9e873') in 0.084788 seconds 
+  Import took 0.091751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.423245 seconds.
+  path: Assets/DangerousDungeons/Assets/Zombies/OBJ/Zed_1.mtl
+  artifactKey: Guid(be749d9afa44c8c40ba7692cb1f27036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Zombies/OBJ/Zed_1.mtl using Guid(be749d9afa44c8c40ba7692cb1f27036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a18edc26483d10117a78dea8dd17bc') in 0.009120 seconds 
+  Import took 0.013180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.958909 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model
+  artifactKey: Guid(dfb1bb36a7de95240bb6b81bc5710265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model using Guid(dfb1bb36a7de95240bb6b81bc5710265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd567cc9d55840a659c9b1a8de6e3fc') in 0.005197 seconds 
+  Import took 0.008965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064666 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/arrow_01.FBX
+  artifactKey: Guid(0883e3a23a3721e4fa566e0b8a7d650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/arrow_01.FBX using Guid(0883e3a23a3721e4fa566e0b8a7d650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ce9b4e6bc22a0a13dace3e0dae6e9f') in 0.048806 seconds 
+  Import took 0.053283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/UV_Scroll_01.FBX
+  artifactKey: Guid(4e77aa4e30c309b4e90146520c3b7ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/UV_Scroll_01.FBX using Guid(4e77aa4e30c309b4e90146520c3b7ed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2c8da2a7bf9662737fda97e8d511c8') in 0.025653 seconds 
+  Import took 0.028685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/wind.FBX
+  artifactKey: Guid(3c369424c5b171e4c958ff23fd915821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/wind.FBX using Guid(3c369424c5b171e4c958ff23fd915821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1acd468dc6ed6b9841499addbcb2e9ab') in 0.022496 seconds 
+  Import took 0.026429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/heart_01.FBX
+  artifactKey: Guid(a05cf90517c5ac242a76bb50b06b53ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/heart_01.FBX using Guid(a05cf90517c5ac242a76bb50b06b53ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f601a0be04c53e5cfbd508bfb76a35fe') in 0.021522 seconds 
+  Import took 0.024648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/sashing_01.FBX
+  artifactKey: Guid(064621bf2a9bdf54c9e0e80a014c01c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/sashing_01.FBX using Guid(064621bf2a9bdf54c9e0e80a014c01c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad14dbdb6f197cfa49ee38f5c6b0657') in 0.019875 seconds 
+  Import took 0.024020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/rock_01.FBX
+  artifactKey: Guid(c942f10c4f3874247825515afabcd065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/rock_01.FBX using Guid(c942f10c4f3874247825515afabcd065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b5eb7a234a0fca365cfc30a50949e') in 0.021968 seconds 
+  Import took 0.025100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/W001.FBX
+  artifactKey: Guid(184b3f285889d554fa74bb558c34e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/W001.FBX using Guid(184b3f285889d554fa74bb558c34e1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbacc277ba0b87a431c2c9ce9e54833f') in 0.021693 seconds 
+  Import took 0.025236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Model/rock_01.FBX
+  artifactKey: Guid(c942f10c4f3874247825515afabcd065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Model/rock_01.FBX using Guid(c942f10c4f3874247825515afabcd065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5b5eb7a234a0fca365cfc30a50949e') in 0.019241 seconds 
+  Import took 0.022611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.729391 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Prefab
+  artifactKey: Guid(c9bd4434b036b634fa1b77af32047dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Prefab using Guid(c9bd4434b036b634fa1b77af32047dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd26b26576e8c44a0aff335b03fbd47c') in 0.005970 seconds 
+  Import took 0.008991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.860034 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture
+  artifactKey: Guid(6181d391d5222544ca9403ef5b2fea2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture using Guid(6181d391d5222544ca9403ef5b2fea2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521a7fe531a5f8504c96e68de8d5a38') in 0.006045 seconds 
+  Import took 0.009830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.100682 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/airflow_01.png
+  artifactKey: Guid(b33d68e8275874d4ea316190b470b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/airflow_01.png using Guid(b33d68e8275874d4ea316190b470b988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaed14cb1b909dd69310cd1cdd2b7f7d') in 0.082503 seconds 
+  Import took 0.086680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/arrow_01.png
+  artifactKey: Guid(69b766b60bb267743a5790643a6cc02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/arrow_01.png using Guid(69b766b60bb267743a5790643a6cc02a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774bc5a8f2b3188b91f188bc8bf951ce') in 0.012845 seconds 
+  Import took 0.016105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/airflow_02.png
+  artifactKey: Guid(48ef1efab58ce7445abd9c41b56f05f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/airflow_02.png using Guid(48ef1efab58ce7445abd9c41b56f05f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006e66eb8fd36de64bd8ba43aa475319') in 0.014403 seconds 
+  Import took 0.018173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/starbox.png
+  artifactKey: Guid(fe095ce6b171a6547ad96df5989c2ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/starbox.png using Guid(fe095ce6b171a6547ad96df5989c2ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55a4ddc537ddb72bdbfe14a59df6d89') in 0.015488 seconds 
+  Import took 0.018602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/hit_01.png
+  artifactKey: Guid(9ab0b862f3010da43a75dabe2ad5ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/hit_01.png using Guid(9ab0b862f3010da43a75dabe2ad5ce02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d762aaef9402ae5eb38df7b7ac5e435') in 0.011349 seconds 
+  Import took 0.015885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/rock_04.png
+  artifactKey: Guid(0380d71e6f704f64a85ddb30cd95595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/rock_04.png using Guid(0380d71e6f704f64a85ddb30cd95595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0923f946c284122f4d2ea2549effb1be') in 0.013286 seconds 
+  Import took 0.017605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/Sprays_01.png
+  artifactKey: Guid(36e502734eef249458075cef8d83633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/Sprays_01.png using Guid(36e502734eef249458075cef8d83633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc4afc5e1f559837a95a061cd12ed9f') in 0.032819 seconds 
+  Import took 0.036352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/hit_02.png
+  artifactKey: Guid(b20ede1b23768e44db15cb8c7c15e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/hit_02.png using Guid(b20ede1b23768e44db15cb8c7c15e130) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0b4cb8965ec82c32172296257ca62d') in 0.013968 seconds 
+  Import took 0.017752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/power_03.png
+  artifactKey: Guid(ee8be02e261755e4883215de2e113e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/power_03.png using Guid(ee8be02e261755e4883215de2e113e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45748a1ded766e72684e1f534dc68770') in 0.011539 seconds 
+  Import took 0.014998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/airflow_03.png
+  artifactKey: Guid(df67d36ca3f3dcf44aabb931cc89370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/airflow_03.png using Guid(df67d36ca3f3dcf44aabb931cc89370d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4688effb5edd7b56137c7af3d58666f4') in 0.013619 seconds 
+  Import took 0.017267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/hit_03.png
+  artifactKey: Guid(062e4cda4e285ed4a91e994428a1dc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/hit_03.png using Guid(062e4cda4e285ed4a91e994428a1dc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66a2197217c8fc1511ecfce9572b9bc') in 0.011367 seconds 
+  Import took 0.015368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/star_02.png
+  artifactKey: Guid(353708b27c4e0bf4b90186ea79227ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/star_02.png using Guid(353708b27c4e0bf4b90186ea79227ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfd8f1d2ad13a547cd24710e52a2b80') in 0.013318 seconds 
+  Import took 0.017324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/ground.png
+  artifactKey: Guid(e3027c8be41eb364d933c5a82c7bde0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/ground.png using Guid(e3027c8be41eb364d933c5a82c7bde0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc522c65bc856f00da58ac4cdf36470') in 0.013923 seconds 
+  Import took 0.018659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/magic_01.png
+  artifactKey: Guid(f6addef24a2887245854cacb60838807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/magic_01.png using Guid(f6addef24a2887245854cacb60838807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dc32f18b6b0811ba0736c95e4c56bda') in 0.012245 seconds 
+  Import took 0.016100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/ground.png
+  artifactKey: Guid(e3027c8be41eb364d933c5a82c7bde0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/ground.png using Guid(e3027c8be41eb364d933c5a82c7bde0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc522c65bc856f00da58ac4cdf36470') in 0.012950 seconds 
+  Import took 0.016630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/star_01.png
+  artifactKey: Guid(e4288234861fa2e4fbc6a0fbec1269dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/star_01.png using Guid(e4288234861fa2e4fbc6a0fbec1269dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c9c058644f352b1e62b0644b76da12') in 0.010923 seconds 
+  Import took 0.014207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/power_01.png
+  artifactKey: Guid(fa0c7416c0e0db341853a137b5c6bcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/power_01.png using Guid(fa0c7416c0e0db341853a137b5c6bcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde6cf39854592d372647f5b6297fb9d') in 0.012874 seconds 
+  Import took 0.017753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/ground_no.png
+  artifactKey: Guid(2d38b44789715cd4383414c0d8f25e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/ground_no.png using Guid(2d38b44789715cd4383414c0d8f25e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4470ecd579f18e2e8be9b724fbacc01a') in 0.019116 seconds 
+  Import took 0.023338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/toon_01.png
+  artifactKey: Guid(fcbc2e23daee107458e174cb6ab4257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/toon_01.png using Guid(fcbc2e23daee107458e174cb6ab4257b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61aaf46ed33cc329f85af8e824dc93a') in 0.018001 seconds 
+  Import took 0.020978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/DangerousDungeons/Assets/Curacion/Texture/smoke_06.png
+  artifactKey: Guid(72b005d0d3b47254c8f8bf8899a6510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Curacion/Texture/smoke_06.png using Guid(72b005d0d3b47254c8f8bf8899a6510f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f1c15d9bf15c344cf9c0cf3481116e2') in 0.011562 seconds 
+  Import took 0.015935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.380978 seconds.
+  path: Assets/DangerousDungeons/Assets/EfectosYParticulas
+  artifactKey: Guid(97a2d4466933ad74d99cbdd11cc55cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/EfectosYParticulas using Guid(97a2d4466933ad74d99cbdd11cc55cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd3fe950b16535bad9effd8bb47ce0') in 0.005282 seconds 
+  Import took 0.009583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003668 seconds.
+  path: Assets/DangerousDungeons/Assets/EfectosYParticulas
+  artifactKey: Guid(97a2d4466933ad74d99cbdd11cc55cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/EfectosYParticulas using Guid(97a2d4466933ad74d99cbdd11cc55cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bd3fe950b16535bad9effd8bb47ce0') in 0.003595 seconds 
+  Import took 0.008067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.461375 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/AtaqueZombie.mp3
+  artifactKey: Guid(d3d0a39dba369b84687595911ceffb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/AtaqueZombie.mp3 using Guid(d3d0a39dba369b84687595911ceffb91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2b714362433dfaca93e84412e9a14a') in 0.039273 seconds 
+  Import took 0.042359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/Running.mp3
+  artifactKey: Guid(40402adc8d34a0c46be5fea78956daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/Running.mp3 using Guid(40402adc8d34a0c46be5fea78956daa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86e99bd17afd79696ee0c67e58f3644') in 0.015804 seconds 
+  Import took 0.019252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/Golpe.mp3
+  artifactKey: Guid(d8ea7ec95eac55d47884b19b8d3ca7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/Golpe.mp3 using Guid(d8ea7ec95eac55d47884b19b8d3ca7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098e923ce79bc0c5fe98a06d09381f0') in 0.021620 seconds 
+  Import took 0.025468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/ZombieQuejandose.mp3
+  artifactKey: Guid(b8c07f69bac2f28499f0825bc7f8bd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/ZombieQuejandose.mp3 using Guid(b8c07f69bac2f28499f0825bc7f8bd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094f82baa059f6b62f539a19bfa15888') in 0.014551 seconds 
+  Import took 0.019540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/Thriller.mp3
+  artifactKey: Guid(3ee08f5df8faee8429a7bc9a43ba10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/Thriller.mp3 using Guid(3ee08f5df8faee8429a7bc9a43ba10d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd97f6f4d24dec16b4c01e3367ee515') in 0.017677 seconds 
+  Import took 0.021013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/Walking.mp3
+  artifactKey: Guid(6fe33ef098e63c9488bea0db43b74d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/Walking.mp3 using Guid(6fe33ef098e63c9488bea0db43b74d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd93bc02d9399a4f268f4df1ad8e6e6') in 0.014408 seconds 
+  Import took 0.018147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/DangerousDungeons/Assets/Musica/BlackOpsMusicaZombies.mp3
+  artifactKey: Guid(327cce31877f18f4f83f8448588f6a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Musica/BlackOpsMusicaZombies.mp3 using Guid(327cce31877f18f4f83f8448588f6a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8ed11bc60758631ade864c0b3004b9') in 0.012866 seconds 
+  Import took 0.016960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.866313 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa
+  artifactKey: Guid(69e76af9d904b6248b7caab46e7ff068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa using Guid(69e76af9d904b6248b7caab46e7ff068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0431c68ba949b36bd1b3a8eef65f633') in 0.004608 seconds 
+  Import took 0.011587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000749 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa
+  artifactKey: Guid(69e76af9d904b6248b7caab46e7ff068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa using Guid(69e76af9d904b6248b7caab46e7ff068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0431c68ba949b36bd1b3a8eef65f633') in 0.004710 seconds 
+  Import took 0.011691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.330717 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemyAtack.cs
+  artifactKey: Guid(e6e7f13317f5bbc43af215ecba335205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemyAtack.cs using Guid(e6e7f13317f5bbc43af215ecba335205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba101073fb18da5a53c371ab4bc4a3cb') in 0.019848 seconds 
+  Import took 0.023789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.851473 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemyController.cs
+  artifactKey: Guid(8154ddf1e58c6924884b94b8c5b67d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemyController.cs using Guid(8154ddf1e58c6924884b94b8c5b67d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbd2c65b2aedf1974fc525ec1cc211b') in 0.003453 seconds 
+  Import took 0.006516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132597 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemyController.cs
+  artifactKey: Guid(8154ddf1e58c6924884b94b8c5b67d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemyController.cs using Guid(8154ddf1e58c6924884b94b8c5b67d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbd2c65b2aedf1974fc525ec1cc211b') in 0.008924 seconds 
+  Import took 0.014749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277579 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemySpawner.cs
+  artifactKey: Guid(fef21a96dbf4b2143b1ba830486d32f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/Enemigos/EnemySpawner.cs using Guid(fef21a96dbf4b2143b1ba830486d32f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c3ff9df0b2709719c19abbd5d48bf4') in 0.003433 seconds 
+  Import took 0.006593 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006605 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.308 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1308ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1045ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (358ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (387ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.9 MB.
+System memory in use after: 90.0 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1910.
+Total: 3.257400 ms (FindLiveObjects: 0.260800 ms CreateObjectMapping: 0.067500 ms MarkObjects: 2.897900 ms  DeleteObjects: 0.029400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 23.981303 seconds.
+  path: Assets/DangerousDungeons/Assets/Personajes/Zombie1/Scripts
+  artifactKey: Guid(d46b3c075141d20478570787b2d74c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Personajes/Zombie1/Scripts using Guid(d46b3c075141d20478570787b2d74c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2273b286c4a60fe676160f52c207173') in 0.011290 seconds 
+  Import took 0.016515 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006875 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.327 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1328ms)
+		BeginReloadAssembly (204ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1033ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (381ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 3.976100 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.100000 ms MarkObjects: 3.650800 ms  DeleteObjects: 0.032900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.236951 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/MuerteController.cs
+  artifactKey: Guid(de0817ded159f604c9189e8b6e1cd27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/MuerteController.cs using Guid(de0817ded159f604c9189e8b6e1cd27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5f9c278f3c0a56cfd47c5df0d0f6df') in 0.009383 seconds 
+  Import took 0.012767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003086 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/MuerteController.cs
+  artifactKey: Guid(de0817ded159f604c9189e8b6e1cd27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/MuerteController.cs using Guid(de0817ded159f604c9189e8b6e1cd27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5f9c278f3c0a56cfd47c5df0d0f6df') in 0.005184 seconds 
+  Import took 0.008873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.092603 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/PausaController.cs
+  artifactKey: Guid(da125a3bdc46bea40894902e366ea30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/PausaController.cs using Guid(da125a3bdc46bea40894902e366ea30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2903d2f7f954cd57bf2b2ecf37d3dc56') in 0.005425 seconds 
+  Import took 0.008714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001525 seconds.
+  path: Assets/DangerousDungeons/GeneralScripts/PausaController.cs
+  artifactKey: Guid(da125a3bdc46bea40894902e366ea30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/GeneralScripts/PausaController.cs using Guid(da125a3bdc46bea40894902e366ea30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2903d2f7f954cd57bf2b2ecf37d3dc56') in 0.005208 seconds 
+  Import took 0.009630 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006513 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.483 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1484ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1205ms)
+			LoadAssemblies (261ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1914.
+Total: 3.553900 ms (FindLiveObjects: 0.184700 ms CreateObjectMapping: 0.097200 ms MarkObjects: 3.238100 ms  DeleteObjects: 0.032900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.253024 seconds.
+  path: Assets/DangerousDungeons/Assets/Canvas
+  artifactKey: Guid(89b2e351bae10f94c967f8642df317c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Canvas using Guid(89b2e351bae10f94c967f8642df317c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '506d8e273415cc87c2df47a0a9f63eb3') in 0.006964 seconds 
+  Import took 0.010393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.438885 seconds.
+  path: Assets/DangerousDungeons/Assets/Canvas/Sprites
+  artifactKey: Guid(3468a6e3f4ca5524db03f320b3a2b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Canvas/Sprites using Guid(3468a6e3f4ca5524db03f320b3a2b22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5eb578d70a146b1949c480154b91d39') in 0.006007 seconds 
+  Import took 0.010106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.012704 seconds.
+  path: Assets/DangerousDungeons/Assets/Canvas/Fonts
+  artifactKey: Guid(816877b4af6532544b662f89e7d798e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Canvas/Fonts using Guid(816877b4af6532544b662f89e7d798e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ae5b2eee3c81775c190a3dc0f73299') in 0.004189 seconds 
+  Import took 0.009931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/DangerousDungeons/Assets/Canvas/Fonts
+  artifactKey: Guid(816877b4af6532544b662f89e7d798e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Canvas/Fonts using Guid(816877b4af6532544b662f89e7d798e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7ae5b2eee3c81775c190a3dc0f73299') in 0.004642 seconds 
+  Import took 0.009272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.095158 seconds.
+  path: Assets/DangerousDungeons/Assets/Canvas/Scripts
+  artifactKey: Guid(acc86e9c9e11fb749af8cf66dfaf66ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Canvas/Scripts using Guid(acc86e9c9e11fb749af8cf66dfaf66ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bb3226b067f949d247042d4e56d9ba') in 0.004213 seconds 
+  Import took 0.007828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005553 seconds.
+  path: Assets/DangerousDungeons/Assets/Canvas/Scripts
+  artifactKey: Guid(acc86e9c9e11fb749af8cf66dfaf66ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Canvas/Scripts using Guid(acc86e9c9e11fb749af8cf66dfaf66ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bb3226b067f949d247042d4e56d9ba') in 0.004271 seconds 
+  Import took 0.010645 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.320 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1321ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1018ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 3.337900 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.106400 ms MarkObjects: 3.013700 ms  DeleteObjects: 0.029300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 24.171888 seconds.
+  path: Assets/DangerousDungeons/Scenes/MenuPrincipal.unity
+  artifactKey: Guid(573c845275aaaf246bcd75933e342064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Scenes/MenuPrincipal.unity using Guid(573c845275aaaf246bcd75933e342064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53ccd72cba33d59bce9ae8c1b838af1') in 0.022166 seconds 
+  Import took 0.026136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.785495 seconds.
+  path: Assets/DangerousDungeons/Scenes/EscenarioCampo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Scenes/EscenarioCampo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8d8cb80e723a38fca6d1e29478628e') in 0.004579 seconds 
+  Import took 0.007780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.429090 seconds.
+  path: Assets/DangerousDungeons/Scenes/EscenarioCementerio.unity
+  artifactKey: Guid(d322172be18043446b8e46e659362ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Scenes/EscenarioCementerio.unity using Guid(d322172be18043446b8e46e659362ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01f5c375e9af01bf43dbe1b612e4bea') in 0.003888 seconds 
+  Import took 0.007095 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.519 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1519ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1266ms)
+			LoadAssemblies (148ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (578ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (375ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1436 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1918.
+Total: 3.458300 ms (FindLiveObjects: 0.167200 ms CreateObjectMapping: 0.070900 ms MarkObjects: 3.191700 ms  DeleteObjects: 0.027400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.484262 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo
+  artifactKey: Guid(399fd11b572ff374cba9e21f2265d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo using Guid(399fd11b572ff374cba9e21f2265d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621b48d6533b6e013864d4f5c595017c') in 0.007233 seconds 
+  Import took 0.010594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004654 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo
+  artifactKey: Guid(399fd11b572ff374cba9e21f2265d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo using Guid(399fd11b572ff374cba9e21f2265d70e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621b48d6533b6e013864d4f5c595017c') in 0.006755 seconds 
+  Import took 0.010787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863801 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-0-Vegetation3.obj
+  artifactKey: Guid(30fd12a1ba124b44394e9961a21b22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-0-Vegetation3.obj using Guid(30fd12a1ba124b44394e9961a21b22dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58e63402f9d7788c308601f19c4b8ea') in 0.121738 seconds 
+  Import took 0.128474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-6-Vegetation5.obj
+  artifactKey: Guid(c2b8e870177085f49bdd8e0d99ce5034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-6-Vegetation5.obj using Guid(c2b8e870177085f49bdd8e0d99ce5034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d3849d5ace7357567ad1cb6e726cee') in 0.051265 seconds 
+  Import took 0.054199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-2-GroundTile2.obj
+  artifactKey: Guid(874087ced97e3864abe83b126a0fbbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-2-GroundTile2.obj using Guid(874087ced97e3864abe83b126a0fbbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3243cb4aa329f72747f76209d4b93a10') in 0.126592 seconds 
+  Import took 0.138582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-7-Vegetation4.obj
+  artifactKey: Guid(3227739057b6a1e4bb1eb7049ac07f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-7-Vegetation4.obj using Guid(3227739057b6a1e4bb1eb7049ac07f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08aa1981093bce6a0486b26027c4d328') in 0.059926 seconds 
+  Import took 0.088637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-1-Vegetation2.obj
+  artifactKey: Guid(5472a60f1c084024ca45bf076c2ffe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-1-Vegetation2.obj using Guid(5472a60f1c084024ca45bf076c2ffe09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f7eea893a7cf9b9bcba4c22fccda0d') in 0.058020 seconds 
+  Import took 0.062814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000539 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-3-GroundTile1.obj
+  artifactKey: Guid(8f7a9083c140cc84998f6bec6cecea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-3-GroundTile1.obj using Guid(8f7a9083c140cc84998f6bec6cecea17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86827e7b6b07fdf8c5d1b96c11c37cf3') in 0.060063 seconds 
+  Import took 0.072440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-8-Rock.obj
+  artifactKey: Guid(d3875ed56eaa19844bea4b3e13e95d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-8-Rock.obj using Guid(d3875ed56eaa19844bea4b3e13e95d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c24aa813b38a7812d9584033e483eed') in 0.064607 seconds 
+  Import took 0.069495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-4-Vegetation1.obj
+  artifactKey: Guid(44334f7be0dd3d94a947af94c1793d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-4-Vegetation1.obj using Guid(44334f7be0dd3d94a947af94c1793d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f221095042c028fda11237c48d9fcc') in 0.072549 seconds 
+  Import took 0.088436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-5-House.obj
+  artifactKey: Guid(31aa81278d5e6124eaf5ab90b6247896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DangerousDungeons/Assets/Mapa/Campo/Obj/CountrySide-5-House.obj using Guid(31aa81278d5e6124eaf5ab90b6247896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41306645f0ae7ba10c055309619505bb') in 0.048269 seconds 
+  Import took 0.053526 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
