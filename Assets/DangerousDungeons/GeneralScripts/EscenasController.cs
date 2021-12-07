@@ -15,4 +15,9 @@ public class EscenasController : MonoBehaviour
     {
         SceneManager.LoadScene("EscenarioCampo");
     }
+
+    public void Cementerio()
+    {
+        SceneManager.LoadScene("EscenarioCementerio");
+    }
 }

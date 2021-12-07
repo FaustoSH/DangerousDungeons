@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b20f963e35116d1459b2d537ca1897f6, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.041091345, g: 0.07253561, b: 0.12543699, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3279,6 +3279,7 @@ MonoBehaviour:
   Mike: {fileID: 2829385725318218642}
   contador: 0
   multiplicador: 0
+  llamas: {fileID: 0}
 --- !u!1001 &812880058
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3927,7 +3928,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 957542442}
         m_TargetAssemblyTypeName: EscenasController, Assembly-CSharp
-        m_MethodName: Campo
+        m_MethodName: Cementerio
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7470,6 +7471,7 @@ MonoBehaviour:
   Mike: {fileID: 2829385725318218642}
   contador: 0
   multiplicador: 0
+  llamas: {fileID: 0}
 --- !u!65 &1692897496
 BoxCollider:
   m_ObjectHideFlags: 0
