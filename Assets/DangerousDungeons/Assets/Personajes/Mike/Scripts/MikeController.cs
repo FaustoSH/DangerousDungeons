@@ -12,6 +12,7 @@ public class MikeController : MonoBehaviour
     public GameObject Escudo;
     public GameObject Hacha;
     public GameObject EscudoMagico;
+    public GameObject zonaCuracion;
     public Image barraEstamina;
     public Sprite[] spriteStamina;
     public Image barraVida;
@@ -121,6 +122,7 @@ public class MikeController : MonoBehaviour
                 }
                 else if(PlayerPrefs.GetInt("Inventario") == 2)
                 {
+                    zonaCuracion.SetActive(true);
                     if (vida + 3 <= 10)
                         vida += 3;
                     else
@@ -239,6 +241,7 @@ public class MikeController : MonoBehaviour
             {
                 gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
                 EscudoMagico.SetActive(false);
+                zonaCuracion.SetActive(false);
                 invulnerabilidad = false;
             }
             //Se actualiza la posición

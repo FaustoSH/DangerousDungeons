@@ -8,6 +8,7 @@ public class WeaponsController : MonoBehaviour
     private int daño;
     public int contador;
     public int multiplicador;
+    public GameObject llamas;
     private void Start()
     {
         contador = 0;
@@ -20,6 +21,14 @@ public class WeaponsController : MonoBehaviour
         {
             multiplicador = 1;
             contador = 0;
+        }
+        if(multiplicador!=1&&PlayerPrefs.GetInt("Inventario") == 1)
+        {
+            llamas.SetActive(true);
+
+        }else if (PlayerPrefs.GetInt("Inventario") == 1)
+        {
+            llamas.SetActive(false);
         }
         
     }

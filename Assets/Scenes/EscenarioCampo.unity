@@ -2021,10 +2021,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mike
       objectReference: {fileID: 0}
-    - target: {fileID: 3135233777222480956, guid: bc79c458deef86b4a9122840300846a2, type: 3}
-      propertyPath: m_Constraints
-      value: 112
-      objectReference: {fileID: 0}
     - target: {fileID: 3135233777222480958, guid: bc79c458deef86b4a9122840300846a2, type: 3}
       propertyPath: barraVida
       value: 
@@ -2043,7 +2039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3172838711049917344, guid: bc79c458deef86b4a9122840300846a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.796
+      value: -0.52
       objectReference: {fileID: 0}
     - target: {fileID: 3172838711049917344, guid: bc79c458deef86b4a9122840300846a2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10216,10 +10212,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1519293185, guid: e54547e3a7e2b9f45b1343a8d11e5803, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -9.055267
-      objectReference: {fileID: 0}
     - target: {fileID: 5804571842610682747, guid: e54547e3a7e2b9f45b1343a8d11e5803, type: 3}
       propertyPath: m_Pivot.x
       value: 0
