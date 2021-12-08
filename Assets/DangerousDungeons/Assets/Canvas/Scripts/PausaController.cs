@@ -1,3 +1,8 @@
+/*
+    Autor: Fausto Sánchez Hoya
+    Descripción: este código se encarga de presentar u ocultar la ventana de pausa en el juego.
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,8 +15,7 @@ public class PausaController : MonoBehaviour
     {
         pausa = false;
     }
-    // Update is called once per frame
-    void Update()
+    void Update() //Comprueba constantemente si se pulsa la tecla ESC y en ese caso presenta u oculta dicha ventana.
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
